@@ -1,6 +1,6 @@
-baseURL = 'https://hugoblogapp.com'
+baseURL = 'https://Blogify.netlify.app'
 languageCode = 'en-us'
-title = 'Lama dev blog'
+title = 'Blogify blog'
 
 [pagination]
   pagerSize = 3
