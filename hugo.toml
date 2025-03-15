@@ -1,6 +1,7 @@
-baseURL = 'https://hugoblogapp.com'
+baseURL = 'https://mahikumawat121998.github.io/hugo-blog-app/'
 languageCode = 'en-us'
 title = 'Lama dev blog'
+
 [pagination]
   pagerSize = 3
 
