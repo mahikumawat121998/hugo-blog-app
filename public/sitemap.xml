@@ -2,61 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/authors/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/authors/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/categories/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/categories/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/categories/coding/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/categories/coding/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/categories/css/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/categories/css/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/categories/culture/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/categories/culture/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/categories/general/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/categories/general/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/categories/html/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/categories/html/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/authors/jane-doe/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/authors/jane-doe/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/authors/john-doe/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/authors/john-doe/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/categories/js/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/categories/js/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/authors/lama-dev/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/authors/lama-dev/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/categories/life/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/categories/life/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/my-fifth-post/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/my-fifth-post/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/my-first-post/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/my-first-post/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/my-fourth-post/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/my-fourth-post/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/my-second-post/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/my-second-post/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/my-third-post/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/my-third-post/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://mahikumawat121998.github.io/hugo-blog-app/categories/travel/</loc>
+    <loc>http://localhost:1313/hugo-blog-app/categories/travel/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url>
 </urlset>
