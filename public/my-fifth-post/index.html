@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content=This&#32;is&#32;a&#32;description>
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="icon" href="images/favicon.png" />
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="icon" href="/images/favicon.png" />
   <title>My Fifth Post My Fifth Post My Fifth Post </title>
 </head>
 <body>
@@ -87,15 +87,15 @@
       <div class="singleHeadDetail">
         <img src=/images/avatar.webp loading="lazy" alt="" class="singleAvatar">
         <span>
-          <a href=https://mahikumawat121998.github.io/hugo-blog-app/authors/lama-dev/>Lama Dev</a>
+          <a href=https://hugoblogapp.com/authors/lama-dev/>Lama Dev</a>
           
         </span>
         
-        <a href=https://mahikumawat121998.github.io/hugo-blog-app/categories/general/ class="singleCategory">general</a>
+        <a href=https://hugoblogapp.com/categories/general/ class="singleCategory">general</a>
         
-        <a href=https://mahikumawat121998.github.io/hugo-blog-app/categories/life/ class="singleCategory">life</a>
+        <a href=https://hugoblogapp.com/categories/life/ class="singleCategory">life</a>
         
-        <a href=https://mahikumawat121998.github.io/hugo-blog-app/categories/coding/ class="singleCategory">coding</a>
+        <a href=https://hugoblogapp.com/categories/coding/ class="singleCategory">coding</a>
         
       </div>
       <time>Nov 22, 2023</time>
@@ -103,7 +103,55 @@
     <img src=/images/5b.webp alt=My&#32;Fifth&#32;Post&#32;My&#32;Fifth&#32;Post&#32;My&#32;Fifth&#32;Post&#32; class="singleHeadImg">
   </div>
   <div class="singleBottom">
-    <div class="singleContent"><p>Test Content</p>
+    <div class="singleContent"><p>To create a blog post in Hugo that includes code snippets with proper syntax highlighting and descriptions, follow these steps:</p>
+<p><strong>1. Create a New Blog Post:</strong></p>
+<p>Use Hugo&rsquo;s command-line tool to generate a new post. Open your terminal and run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/your-post-title.md
+</span></span></code></pre></div><p>Replace <code>your-post-title.md</code> with your desired filename. This command creates a new Markdown file in the <code>content/posts</code> directory.</p>
+<p><strong>2. Add Content to the Post:</strong></p>
+<p>Open the newly created Markdown file in your preferred text editor. Add your content, including code snippets. Hugo offers multiple methods to include code snippets with syntax highlighting:</p>
+<p><strong>a. Using Markdown Code Fences:</strong></p>
+<p>Hugo supports syntax highlighting using code fences. Specify the language after the opening backticks for proper highlighting.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>\``<span style="color:#e6db74">`python
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">def hello_world():
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    print(&#34;Hello, World!&#34;)
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">\`</span>``
+</span></span></code></pre></div><p>This method provides basic syntax highlighting based on the specified language.</p>
+<p><strong>b. Using Hugo&rsquo;s <code>highlight</code> Shortcode:</strong></p>
+<p>Hugo&rsquo;s built-in <code>highlight</code> shortcode offers advanced syntax highlighting features, such as line numbers and line highlighting.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="background-color:#3c3d38"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">hello_world</span>():
+</span></span><span style="display:flex; background-color:#3c3d38"><span>    print(<span style="color:#e6db74">&#34;Hello, World!&#34;</span>)</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</span></span></code></pre></div><p>In this example, line numbers are displayed in a table format, and the second line is highlighted.</p>
+<p><strong>c. Embedding GitHub Gists:</strong></p>
+<p>To embed code snippets stored in GitHub Gists, use Hugo&rsquo;s <code>gist</code> shortcode. First, create a Gist on GitHub and copy its ID. Then, embed it in your post as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><script src="https://gist.github.com/gist_id/.js"></script>
+
+</span></span></code></pre></div><p>Replace <code>gist_id</code> with the actual ID of your Gist. This method allows you to maintain code snippets externally and embed them in multiple posts.</p>
+<p><strong>3. Configure Syntax Highlighting:</strong></p>
+<p>Ensure that Hugo&rsquo;s syntax highlighting is enabled and configured in your <code>config.toml</code> file. Add or update the <code>[markup]</code> section as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">markup</span>]
+</span></span><span style="display:flex;"><span>  [<span style="color:#a6e22e">markup</span>.<span style="color:#a6e22e">highlight</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">noClasses</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">style</span> = <span style="color:#e6db74">&#34;monokai&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">lineNos</span> = <span style="color:#66d9ef">true</span>
+</span></span></code></pre></div><p>This configuration enables syntax highlighting with the &ldquo;monokai&rdquo; style and displays line numbers.</p>
+<p><strong>4. Add Descriptions and Explanations:</strong></p>
+<p>Provide clear descriptions and explanations before or after each code snippet to help readers understand the context and functionality of the code.</p>
+<p><strong>5. Test and Preview Your Post:</strong></p>
+<p>Run the Hugo server to preview your post locally:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p>Visit <code>http://localhost:1313</code> in your browser to ensure that the code snippets render correctly with syntax highlighting and that the content appears as intended.</p>
+<p><strong>6. Deploy Your Site:</strong></p>
+<p>After verifying your post, deploy your Hugo site using your preferred deployment method, such as GitHub Pages or Netlify.</p>
+<p>By following these steps, you can create informative blog posts in Hugo that include well-formatted code snippets and descriptions, enhancing the readability and usefulness of your content.</p>
 </div>
     <div class="singleRightBar">
       <div class="rightBar">
@@ -275,6 +323,6 @@
 </div>
 
   </div>
-  <script src="/js/app.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
