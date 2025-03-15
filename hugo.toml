@@ -1,4 +1,4 @@
-baseURL = 'https://hugoblogapp.com'
+baseURL = 'https://blogcube.netlify.app/'
 languageCode = 'en-us'
 title = 'Lama dev blog'
 
