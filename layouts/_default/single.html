@@ -10,11 +10,17 @@
           <a href={{.Permalink}}>{{ .Name }}</a>
           {{end}}
         </span>
-        {{ range (.GetTerms "categories")}}
+        <div>
+          <time class="time-format">{{ dateFormat .Site.Params.dateFormat .Date }}</time>
+        </div>
+        <div>
+          {{ range (.GetTerms "categories")}}
         <a href={{.Permalink}} class="singleCategory">{{ .Name }}</a>
         {{end}}
+        </div>
+         
       </div>
-      <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>
+      <time class="time-format1">{{ dateFormat .Site.Params.dateFormat .Date }}</time>
     </div>
     <img src={{ .Params.imageBig }} alt={{.Title}} class="singleHeadImg">
   </div>

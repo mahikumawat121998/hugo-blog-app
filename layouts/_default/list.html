@@ -22,15 +22,17 @@
           {{end}}</span>
         <time>{{ dateFormat .Site.Params.dateFormat  .Date}}</time>
       </div>
+     
       <div class="listItemCategories">
         {{ range (.GetTerms "categories") }}
-        {{ $nameHash := crypto.MD5 .Name }}
-        {{ $color := printf "#%s" (substr $nameHash 0 6) }}
-        <a class="listItemCategory gradient-border-button1" href="{{ .Permalink }}" >
-          {{ .Name }}
-        </a>
+          {{ $nameHash := crypto.MD5 .Name }}
+          {{ $color := printf "#%s" (substr $nameHash 0 6) }}
+          <a class="listItemCategory gradient-border-button1" href="{{ .Permalink }}" style="background-color: {{ $color }}">
+            {{ .Name }}
+          </a>
         {{ end }}
       </div>
+      
     </div>
   </div>
   {{ end }} {{ template "_internal/pagination.html" . }}

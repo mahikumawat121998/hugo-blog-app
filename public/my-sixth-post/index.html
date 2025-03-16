@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-  <title>📘 Understanding useEffect in React: Use Cases, Examples &amp; Best Practices</title>
+  <title>Understanding useEffect in React: Use Cases, Examples &amp; Best Practices</title>
 </head>
 <body>
   <div class="container">
@@ -88,7 +88,7 @@
 <div class="single">
   <div class="singleHead">
     <div class="singleHeadTexts">
-      <h1 class="singleHeadTitle">📘 Understanding useEffect in React: Use Cases, Examples &amp; Best Practices</h1>
+      <h1 class="singleHeadTitle">Understanding useEffect in React: Use Cases, Examples &amp; Best Practices</h1>
       <p class="singleHeadDesc">React’s useEffect is one of the most powerful and essential hooks in the React ecosystem. Yet, it’s also one of the most misunderstood. Whether you&#39;re fetching data, manipulating the DOM, or syncing with external systems—useEffect is your go-to solution.</p>
       <div class="singleHeadDetail">
         <img src=/images/avatar.webp loading="lazy" alt="" class="singleAvatar">
@@ -96,7 +96,11 @@
           <a href=http://localhost:1313/authors/mk-dev/>MK Dev</a>
           
         </span>
-        
+        <div>
+          <time class="time-format">Nov 22, 2023</time>
+        </div>
+        <div>
+          
         <a href=http://localhost:1313/categories/general/ class="singleCategory">general</a>
         
         <a href=http://localhost:1313/categories/technology/ class="singleCategory">technology</a>
@@ -105,10 +109,12 @@
         
         <a href=http://localhost:1313/categories/react/ class="singleCategory">react</a>
         
+        </div>
+         
       </div>
-      <time>Nov 22, 2023</time>
+      <time class="time-format1">Nov 22, 2023</time>
     </div>
-    <img src=https://kinsta.com/wp-content/uploads/2023/05/react-useeffect.jpg alt=📘&#32;Understanding&#32;useEffect&#32;in&#32;React:&#32;Use&#32;Cases,&#32;Examples&#32;&amp;&#32;Best&#32;Practices class="singleHeadImg">
+    <img src=https://kinsta.com/wp-content/uploads/2023/05/react-useeffect.jpg alt=Understanding&#32;useEffect&#32;in&#32;React:&#32;Use&#32;Cases,&#32;Examples&#32;&amp;&#32;Best&#32;Practices class="singleHeadImg">
   </div>
   <div class="singleBottom">
     <div class="singleContent"><p>The <code>useEffect</code> Hook is a fundamental aspect of React that allows developers to handle side effects in functional components. Introduced in React 16.8, it replaces the need for class-based lifecycle methods, enabling a more streamlined approach to managing side effects such as data fetching, subscriptions, or manually changing the DOM.</p>
@@ -124,8 +130,6 @@
 </span></span><span class="line"><span class="cl"><span class="p">},</span> <span class="p">[</span><span class="nx">dependencies</span><span class="p">]);</span>
 </span></span></code></pre></div><p>Here, the first argument is a function containing the side effect logic, and the second argument is an optional array of dependencies that determine when the effect should re-run. If the dependencies change, the effect is executed again.</p>
 <p><strong>Common Use Cases for <code>useEffect</code></strong></p>
-<ol>
-<li>
 <p><strong>Fetching Data from an API</strong></p>
 <p>One of the most common use cases for <code>useEffect</code> is fetching data when a component mounts. By providing an empty dependency array, the effect runs only once after the initial render.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span><span class="p">;</span>
@@ -151,8 +155,6 @@
 </span></span><span class="line"><span class="cl">  <span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>In this example, <code>fetchData</code> is called once when the component mounts, and the fetched data is stored in the component&rsquo;s state.</p>
-</li>
-<li>
 <p><strong>Subscribing to External Data Sources</strong></p>
 <p><code>useEffect</code> is also useful for setting up subscriptions to external data sources or event listeners. It&rsquo;s important to clean up these subscriptions to prevent memory leaks.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span><span class="p">;</span>
@@ -176,8 +178,6 @@
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span><span class="nx">Window</span> <span class="nx">width</span><span class="o">:</span> <span class="p">{</span><span class="nx">width</span><span class="p">}&lt;/</span><span class="nt">div</span><span class="p">&gt;;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>Here, an event listener is added to track window resize events, and the cleanup function removes the listener when the component unmounts.</p>
-</li>
-<li>
 <p><strong>Animating Components on State Change</strong></p>
 <p><code>useEffect</code> can trigger animations in response to state changes. For instance, you might want to animate a shopping cart icon when a new item is added.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span><span class="p">;</span>
@@ -200,8 +200,6 @@
 </span></span><span class="line"><span class="cl">  <span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>In this case, the effect watches the <code>items</code> array, and when it changes (i.e., when a new item is added), it triggers an animation that lasts for 300 milliseconds.</p>
-</li>
-</ol>
 <p><strong>Best Practices for Using <code>useEffect</code></strong></p>
 <ul>
 <li>

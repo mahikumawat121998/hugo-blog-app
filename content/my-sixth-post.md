@@ -1,5 +1,5 @@
 +++
-title = '📘 Understanding useEffect in React: Use Cases, Examples & Best Practices'
+title = 'Understanding useEffect in React: Use Cases, Examples & Best Practices'
 date = 2023-11-22T16:55:24+01:00
 draft = false
 description = "React’s useEffect is one of the most powerful and essential hooks in the React ecosystem. Yet, it’s also one of the most misunderstood. Whether you're fetching data, manipulating the DOM, or syncing with external systems—useEffect is your go-to solution."
@@ -33,7 +33,7 @@ Here, the first argument is a function containing the side effect logic, and the
 
 **Common Use Cases for `useEffect`**
 
-1. **Fetching Data from an API**
+**Fetching Data from an API**
 
    One of the most common use cases for `useEffect` is fetching data when a component mounts. By providing an empty dependency array, the effect runs only once after the initial render.
 
@@ -64,7 +64,7 @@ Here, the first argument is a function containing the side effect logic, and the
 
    In this example, `fetchData` is called once when the component mounts, and the fetched data is stored in the component's state.
 
-2. **Subscribing to External Data Sources**
+**Subscribing to External Data Sources**
 
    `useEffect` is also useful for setting up subscriptions to external data sources or event listeners. It's important to clean up these subscriptions to prevent memory leaks.
 
@@ -93,7 +93,7 @@ Here, the first argument is a function containing the side effect logic, and the
 
    Here, an event listener is added to track window resize events, and the cleanup function removes the listener when the component unmounts.
 
-3. **Animating Components on State Change**
+**Animating Components on State Change**
 
    `useEffect` can trigger animations in response to state changes. For instance, you might want to animate a shopping cart icon when a new item is added.
 
