@@ -16,7 +16,7 @@ title = 'Blogify blog'
 
 [markup]
   [markup.highlight]
-    noClasses = false
-    style = "monokai"
-    lineNos = true
+    noClasses = false  # Use CSS classes for styling
+    style = "monokai"  # Choose your preferred style
+    
     

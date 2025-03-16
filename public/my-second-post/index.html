@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content=This&#32;is&#32;a&#32;description>
   <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/syntax.css">
+  <link rel="stylesheet" href="/styles/syntax.css">
   <link rel="icon" href="/images/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +21,8 @@
     <a href="/">Blog Cube</a>
   </div>
   <div class="links">
-    <div class="toggle">
+    <div class="toggle" style="visibility: visible;
+    transition: 500ms ease-in-out;">
       <svg
         width="20px"
         height="20px"
@@ -57,7 +60,7 @@
         </g>
       </svg>
     </div>
-    <a href="/">Homepage</a>
+    <a class="homepage-link" href="/">Homepage</a>
     <a href="/categories">Categories</a>
     <div class="searchButton">
       <svg
@@ -94,17 +97,11 @@
           
         </span>
         
+        <a href=http://localhost:1313/categories/general/ class="singleCategory">general</a>
         
+        <a href=http://localhost:1313/categories/css/ class="singleCategory">css</a>
         
-        <a href=http://localhost:1313/categories/general/   class="singleCategory" style="background-color: #958">general </a>
-        
-        
-        
-        <a href=http://localhost:1313/categories/css/   class="singleCategory" style="background-color: #c7a">css </a>
-        
-        
-        
-        <a href=http://localhost:1313/categories/js/   class="singleCategory" style="background-color: #329">js </a>
+        <a href=http://localhost:1313/categories/js/ class="singleCategory">js</a>
         
       </div>
       <time>Nov 22, 2023</time>

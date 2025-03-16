@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content=React’s&#32;useEffect&#32;is&#32;one&#32;of&#32;the&#32;most&#32;powerful&#32;and&#32;essential&#32;hooks&#32;in&#32;the&#32;React&#32;ecosystem.&#32;Yet,&#32;it’s&#32;also&#32;one&#32;of&#32;the&#32;most&#32;misunderstood.&#32;Whether&#32;you&#39;re&#32;fetching&#32;data,&#32;manipulating&#32;the&#32;DOM,&#32;or&#32;syncing&#32;with&#32;external&#32;systems—useEffect&#32;is&#32;your&#32;go-to&#32;solution.>
   <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/syntax.css">
+  <link rel="stylesheet" href="/styles/syntax.css">
   <link rel="icon" href="/images/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,7 +60,7 @@
         </g>
       </svg>
     </div>
-    <a href="/">Homepage</a>
+    <a class="homepage-link" href="/">Homepage</a>
     <a href="/categories">Categories</a>
     <div class="searchButton">
       <svg
@@ -95,21 +97,13 @@
           
         </span>
         
+        <a href=http://localhost:1313/categories/general/ class="singleCategory">general</a>
         
+        <a href=http://localhost:1313/categories/technology/ class="singleCategory">technology</a>
         
-        <a href=http://localhost:1313/categories/general/   class="singleCategory" style="background-color: #958">general </a>
+        <a href=http://localhost:1313/categories/coding/ class="singleCategory">coding</a>
         
-        
-        
-        <a href=http://localhost:1313/categories/technology/   class="singleCategory" style="background-color: #83e">technology </a>
-        
-        
-        
-        <a href=http://localhost:1313/categories/coding/   class="singleCategory" style="background-color: #709">coding </a>
-        
-        
-        
-        <a href=http://localhost:1313/categories/react/   class="singleCategory" style="background-color: #266">react </a>
+        <a href=http://localhost:1313/categories/react/ class="singleCategory">react</a>
         
       </div>
       <time>Nov 22, 2023</time>
@@ -121,59 +115,20 @@
 <p><strong>Understanding <code>useEffect</code></strong></p>
 <p>In functional components, side effects are operations that interact with the outside world or affect the component outside of rendering, such as fetching data from an API, setting up a subscription, or manually manipulating the DOM. The <code>useEffect</code> Hook provides a way to perform these side effects.</p>
 <p>The basic syntax of <code>useEffect</code> is:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="nx">useEffect</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="nx">useEffect</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="c1">// Side effect logic here
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// Cleanup logic here (optional)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">};</span>
 </span></span><span class="line"><span class="cl"><span class="p">},</span> <span class="p">[</span><span class="nx">dependencies</span><span class="p">]);</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>Here, the first argument is a function containing the side effect logic, and the second argument is an optional array of dependencies that determine when the effect should re-run. If the dependencies change, the effect is executed again.</p>
+</span></span></code></pre></div><p>Here, the first argument is a function containing the side effect logic, and the second argument is an optional array of dependencies that determine when the effect should re-run. If the dependencies change, the effect is executed again.</p>
 <p><strong>Common Use Cases for <code>useEffect</code></strong></p>
 <ol>
 <li>
 <p><strong>Fetching Data from an API</strong></p>
 <p>One of the most common use cases for <code>useEffect</code> is fetching data when a component mounts. By providing an empty dependency array, the effect runs only once after the initial render.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span><span class="p">;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">DataFetchingComponent</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="p">[</span><span class="nx">data</span><span class="p">,</span> <span class="nx">setData</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">([]);</span>
@@ -195,38 +150,12 @@
 </span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">  <span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>In this example, <code>fetchData</code> is called once when the component mounts, and the fetched data is stored in the component&rsquo;s state.</p>
+</span></span></code></pre></div><p>In this example, <code>fetchData</code> is called once when the component mounts, and the fetched data is stored in the component&rsquo;s state.</p>
 </li>
 <li>
 <p><strong>Subscribing to External Data Sources</strong></p>
 <p><code>useEffect</code> is also useful for setting up subscriptions to external data sources or event listeners. It&rsquo;s important to clean up these subscriptions to prevent memory leaks.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span><span class="p">;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">WindowWidthComponent</span><span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="p">[</span><span class="nx">width</span><span class="p">,</span> <span class="nx">setWidth</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="nb">window</span><span class="p">.</span><span class="nx">innerWidth</span><span class="p">);</span>
@@ -246,37 +175,12 @@
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span><span class="nx">Window</span> <span class="nx">width</span><span class="o">:</span> <span class="p">{</span><span class="nx">width</span><span class="p">}&lt;/</span><span class="nt">div</span><span class="p">&gt;;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>Here, an event listener is added to track window resize events, and the cleanup function removes the listener when the component unmounts.</p>
+</span></span></code></pre></div><p>Here, an event listener is added to track window resize events, and the cleanup function removes the listener when the component unmounts.</p>
 </li>
 <li>
 <p><strong>Animating Components on State Change</strong></p>
 <p><code>useEffect</code> can trigger animations in response to state changes. For instance, you might want to animate a shopping cart icon when a new item is added.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span><span class="p">;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">useState</span><span class="p">,</span> <span class="nx">useEffect</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;react&#39;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">ShoppingCart</span><span class="p">({</span> <span class="nx">items</span> <span class="p">})</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="p">[</span><span class="nx">isAnimating</span><span class="p">,</span> <span class="nx">setIsAnimating</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
@@ -295,9 +199,7 @@
 </span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">  <span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>In this case, the effect watches the <code>items</code> array, and when it changes (i.e., when a new item is added), it triggers an animation that lasts for 300 milliseconds.</p>
+</span></span></code></pre></div><p>In this case, the effect watches the <code>items</code> array, and when it changes (i.e., when a new item is added), it triggers an animation that lasts for 300 milliseconds.</p>
 </li>
 </ol>
 <p><strong>Best Practices for Using <code>useEffect</code></strong></p>

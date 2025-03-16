@@ -1,19 +1,10 @@
 {{ define "main" }} 
 {{ if eq .RelPermalink "/categories/"}} 
- 
-<div class="category-container">
-  {{ range $.Site.Taxonomies.categories.ByCount }}
-    {{ $nameHash := md5 .Name }}
-    {{ $color := printf "#%s" (substr $nameHash 0 3) }}
-    <a href="/categories/{{ .Name }}" class="category-link gradient-border-button" style="background-color: {{ $color }}">
-      # {{ .Name }} <small>({{ .Count }})</small>
-    </a>
-  {{ end }}
-</div>
-
-
-
- 
+{{ range $.Site.Taxonomies.categories.ByCount }}
+  <a href="/categories/{{ .Name }}">
+    # {{ .Name }} <small>({{.Count}})</small>
+  </a>
+{{end}}
 {{ else }}
 <div class="list">
   {{ range .Paginator.Pages }}
@@ -45,7 +36,7 @@
         >
         <time>{{ dateFormat .Site.Params.dateFormat .Date}}</time>
       </div>
-      <div  class="listItemCategories">
+      <div class="listItemCategories">
         {{ range (.GetTerms "categories") }}
         <a class="listItemCategory" href={{ .Permalink }}>{{ .Name }}</a>
         {{ end }}

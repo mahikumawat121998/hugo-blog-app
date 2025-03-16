@@ -11,3 +11,6 @@ avatar = "/images/avatar.webp"
 +++
 
 Test Content
+```javascript
+// Your JavaScript code here
+```

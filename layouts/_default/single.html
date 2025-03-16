@@ -11,9 +11,7 @@
           {{end}}
         </span>
         {{ range (.GetTerms "categories")}}
-        {{ $nameHash := md5 .Name }}
-        {{ $color := printf "#%s" (substr $nameHash 0 3)}}
-        <a href={{.Permalink}}   class="singleCategory" style="background-color: {{$color}}">{{ .Name }} </a>
+        <a href={{.Permalink}} class="singleCategory">{{ .Name }}</a>
         {{end}}
       </div>
       <time>{{ dateFormat .Site.Params.dateFormat .Date }}</time>

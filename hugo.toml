@@ -17,5 +17,5 @@ title = 'Lama dev blog'
   [markup.highlight]
     noClasses = false
     style = "monokai"
-    lineNos = true
+    lineNos = false
     
