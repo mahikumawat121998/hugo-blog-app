@@ -7,14 +7,17 @@
   <meta name="description" content={{or .Params.description .Site.Params.description}}>
   <link rel="stylesheet" href="/styles/style.css">
   <link rel="icon" href="/images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   <title>{{ .Title }}</title>
 </head>
 <body>
   <div class="container">
-    {{ partial "navbar" . }}
+    {{ partial "navbar.html" . }}
     {{ block "main" . }} {{ end }}
-    {{ partial "footer" . }}
+    {{ partial "footer.html" . }}
   </div>
-  <script src="js/app.js"></script>
+  <script src="/js/app.js"></script>
 </body>
 </html>

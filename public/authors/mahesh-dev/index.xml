@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mahesh Dev on Lama dev blog</title>
+    <link>http://localhost:1313/authors/mahesh-dev/</link>
+    <description>Recent content in Mahesh Dev on Lama dev blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Nov 2023 16:55:24 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/mahesh-dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📘 Understanding useEffect in React: Use Cases, Examples &amp; Best Practices</title>
+      <link>http://localhost:1313/my-sixth-post/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>http://localhost:1313/my-sixth-post/</guid>
+      <description>&lt;p&gt;To create a blog post in Hugo that includes code snippets with proper syntax highlighting and descriptions, follow these steps:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1. Create a New Blog Post:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Use Hugo&amp;rsquo;s command-line tool to generate a new post. Open your terminal and run:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new posts/your-post-title.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Replace &lt;code&gt;your-post-title.md&lt;/code&gt; with your desired filename. This command creates a new Markdown file in the &lt;code&gt;content/posts&lt;/code&gt; directory.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. Add Content to the Post:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Open the newly created Markdown file in your preferred text editor. Add your content, including code snippets. Hugo offers multiple methods to include code snippets with syntax highlighting:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

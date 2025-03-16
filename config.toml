@@ -12,3 +12,11 @@ title = 'Blogify blog'
 [taxonomies]
   category = "categories"
   author = "authors"
+
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = "monokai"
+    lineNos = true
+    

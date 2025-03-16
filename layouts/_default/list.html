@@ -24,7 +24,11 @@
       </div>
       <div class="listItemCategories">
         {{ range (.GetTerms "categories") }}
-        <a class="listItemCategory" href={{ .Permalink }}>{{ .Name }}</a>
+        {{ $nameHash := crypto.MD5 .Name }}
+        {{ $color := printf "#%s" (substr $nameHash 0 6) }}
+        <a class="listItemCategory gradient-border-button1" href="{{ .Permalink }}" >
+          {{ .Name }}
+        </a>
         {{ end }}
       </div>
     </div>

@@ -2,66 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Lama dev blog</title>
-    <link>https://hugoblogapp.com/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Lama dev blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Nov 2023 16:55:24 +0100</lastBuildDate>
-    <atom:link href="https://hugoblogapp.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding</title>
-      <link>https://hugoblogapp.com/categories/coding/</link>
+      <link>http://localhost:1313/categories/coding/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://hugoblogapp.com/categories/coding/</guid>
+      <guid>http://localhost:1313/categories/coding/</guid>
       <description></description>
     </item>
     <item>
       <title>Css</title>
-      <link>https://hugoblogapp.com/categories/css/</link>
+      <link>http://localhost:1313/categories/css/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://hugoblogapp.com/categories/css/</guid>
+      <guid>http://localhost:1313/categories/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Culture</title>
-      <link>https://hugoblogapp.com/categories/culture/</link>
+      <link>http://localhost:1313/categories/culture/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://hugoblogapp.com/categories/culture/</guid>
+      <guid>http://localhost:1313/categories/culture/</guid>
       <description></description>
     </item>
     <item>
       <title>General</title>
-      <link>https://hugoblogapp.com/categories/general/</link>
+      <link>http://localhost:1313/categories/general/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://hugoblogapp.com/categories/general/</guid>
+      <guid>http://localhost:1313/categories/general/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>https://hugoblogapp.com/categories/html/</link>
+      <link>http://localhost:1313/categories/html/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://hugoblogapp.com/categories/html/</guid>
+      <guid>http://localhost:1313/categories/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Js</title>
-      <link>https://hugoblogapp.com/categories/js/</link>
+      <link>http://localhost:1313/categories/js/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://hugoblogapp.com/categories/js/</guid>
+      <guid>http://localhost:1313/categories/js/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>https://hugoblogapp.com/categories/life/</link>
+      <link>http://localhost:1313/categories/life/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://hugoblogapp.com/categories/life/</guid>
+      <guid>http://localhost:1313/categories/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>React</title>
+      <link>http://localhost:1313/categories/react/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>http://localhost:1313/categories/react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>http://localhost:1313/categories/technology/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>http://localhost:1313/categories/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Travel</title>
-      <link>https://hugoblogapp.com/categories/travel/</link>
+      <link>http://localhost:1313/categories/travel/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://hugoblogapp.com/categories/travel/</guid>
+      <guid>http://localhost:1313/categories/travel/</guid>
       <description></description>
     </item>
   </channel>

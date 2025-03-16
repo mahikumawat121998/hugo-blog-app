@@ -2,45 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lama dev blog</title>
-    <link>https://hugoblogapp.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Lama dev blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Nov 2023 16:55:24 +0100</lastBuildDate>
-    <atom:link href="https://hugoblogapp.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📘 Understanding useEffect in React: Use Cases, Examples &amp; Best Practices</title>
+      <link>http://localhost:1313/my-sixth-post/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>http://localhost:1313/my-sixth-post/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;useEffect&lt;/code&gt; Hook is a fundamental aspect of React that allows developers to handle side effects in functional components. Introduced in React 16.8, it replaces the need for class-based lifecycle methods, enabling a more streamlined approach to managing side effects such as data fetching, subscriptions, or manually changing the DOM.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Understanding &lt;code&gt;useEffect&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In functional components, side effects are operations that interact with the outside world or affect the component outside of rendering, such as fetching data from an API, setting up a subscription, or manually manipulating the DOM. The &lt;code&gt;useEffect&lt;/code&gt; Hook provides a way to perform these side effects.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My Fifth Post My Fifth Post My Fifth Post </title>
-      <link>https://hugoblogapp.com/my-fifth-post/</link>
+      <link>http://localhost:1313/my-fifth-post/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://hugoblogapp.com/my-fifth-post/</guid>
-      <description>&lt;p&gt;To create a blog post in Hugo that includes code snippets with proper syntax highlighting and descriptions, follow these steps:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1. Create a New Blog Post:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Use Hugo&amp;rsquo;s command-line tool to generate a new post. Open your terminal and run:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new posts/your-post-title.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Replace &lt;code&gt;your-post-title.md&lt;/code&gt; with your desired filename. This command creates a new Markdown file in the &lt;code&gt;content/posts&lt;/code&gt; directory.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. Add Content to the Post:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Open the newly created Markdown file in your preferred text editor. Add your content, including code snippets. Hugo offers multiple methods to include code snippets with syntax highlighting:&lt;/p&gt;</description>
+      <guid>http://localhost:1313/my-fifth-post/</guid>
+      <description>&lt;p&gt;To create a blog post in Hugo that includes code snippets with proper syntax highlighting and descriptions, follow these steps:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1. Create a New Blog Post:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Use Hugo&amp;rsquo;s command-line tool to generate a new post. Open your terminal and run:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new posts/your-post-title.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;Replace &lt;code&gt;your-post-title.md&lt;/code&gt; with your desired filename. This command creates a new Markdown file in the &lt;code&gt;content/posts&lt;/code&gt; directory.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. Add Content to the Post:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Open the newly created Markdown file in your preferred text editor. Add your content, including code snippets. Hugo offers multiple methods to include code snippets with syntax highlighting:&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://hugoblogapp.com/my-first-post/</link>
+      <link>http://localhost:1313/my-first-post/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://hugoblogapp.com/my-first-post/</guid>
+      <guid>http://localhost:1313/my-first-post/</guid>
       <description>&lt;p&gt;Test Content&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Fourth Post</title>
-      <link>https://hugoblogapp.com/my-fourth-post/</link>
+      <link>http://localhost:1313/my-fourth-post/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://hugoblogapp.com/my-fourth-post/</guid>
+      <guid>http://localhost:1313/my-fourth-post/</guid>
       <description>&lt;p&gt;Test Content&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Second Post</title>
-      <link>https://hugoblogapp.com/my-second-post/</link>
+      <link>http://localhost:1313/my-second-post/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://hugoblogapp.com/my-second-post/</guid>
+      <guid>http://localhost:1313/my-second-post/</guid>
       <description>&lt;p&gt;Test Content&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Third Post</title>
-      <link>https://hugoblogapp.com/my-third-post/</link>
+      <link>http://localhost:1313/my-third-post/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://hugoblogapp.com/my-third-post/</guid>
+      <guid>http://localhost:1313/my-third-post/</guid>
       <description>&lt;p&gt;Test Content&lt;/p&gt;</description>
     </item>
   </channel>
