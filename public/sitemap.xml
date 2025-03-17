@@ -8,13 +8,25 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/coding/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/my-seventh-post/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/express-js-vs-nest-js/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/general/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/javascript/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/life/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/mk-kumawat/</loc>
@@ -26,16 +38,10 @@
     <loc>http://localhost:1313/categories/web-development/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/coding/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/css/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/culture/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/general/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/html/</loc>
@@ -51,9 +57,6 @@
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/lama-dev/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/life/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/mk-dev/</loc>

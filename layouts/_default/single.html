@@ -13,9 +13,17 @@
         <div>
           <time class="time-format">{{ dateFormat .Site.Params.dateFormat .Date }}</time>
         </div>
-        <div>
+        <div  style="display: flex; gap: 15px; flex-wrap: wrap;" >
           {{ range (.GetTerms "categories")}}
-        <a href={{.Permalink}} class="singleCategory">{{ .Name }}</a>
+          {{ $nameHash := crypto.MD5 .Name }}
+          {{ $color := printf "#%s" (substr $nameHash 0 6) }}
+          <div class="slide-button " style="background-color: {{ $color }}">
+            <a href={{.Permalink}} class=" slide-content"         
+         
+        >{{ .Name }} </a>
+
+          </div>
+         
         {{end}}
         </div>
          

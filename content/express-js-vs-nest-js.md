@@ -1,15 +1,16 @@
 +++
-title= "Express vs NestJS: Which One Should You Choose?"
-date= 2025-03-13
-categories= ["JavaScript", "Node.js", "Web Development"]
-tags= ["expressjs", "nestjs", "backend", "nodejs", "javascript"]
-draft= false
-description="A detailed comparison between Express.js and NestJS for building robust backend applications."
-image= "https://cabinetm-beta.s3.amazonaws.com/0000015e-91dd-5dd3-2c69-10a826b10957.jpg"
-imageBig= "https://www.upsqode.com/wp-content/uploads/2023/03/Nest-js-vs-Express-js.jpg"
-authors= ["MK Kumawat"]
-avatar= "/images/avatar.webp"
+title = "Express.js vs NestJS: Which One Should You Choose?"
+date = 2025-03-13
+categories = ["JavaScript", "Node.js", "Web Development", "general", "life", "coding"]
+tags = ["expressjs", "nestjs", "backend", "nodejs", "javascript"]
+draft = false
+description = "A detailed comparison between Express.js and NestJS for building robust backend applications."
+image = "/images/5s.webp"
+imageBig = "/images/5b.webp"
+authors = ["MK Kumawat"]
+avatar = "/images/avatar.webp"
 +++
+
 
 When it comes to backend development in **Node.js**, two names frequently stand out: **Express.js** and **NestJS**. While both are powerful and widely used, they differ greatly in terms of architecture, scalability, learning curve, and developer experience.
 
