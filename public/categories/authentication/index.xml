@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authentication on Lama dev blog</title>
+    <link>http://localhost:1313/categories/authentication/</link>
+    <description>Recent content in Authentication on Lama dev blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/authentication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Authentication with Next.js and Prisma</title>
+      <link>http://localhost:1313/authentication-nextjs-prisma/</link>
+      <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authentication-nextjs-prisma/</guid>
+      <description>&lt;h2 id=&#34;authentication-with-nextjs-and-prisma-a-complete-guide&#34;&gt;Authentication with Next.js and Prisma: A Complete Guide&lt;/h2&gt;&#xA;&lt;p&gt;Modern web applications need robust authentication systems. In this blog post, we’ll dive into how to build authentication in a &lt;strong&gt;Next.js app using Prisma ORM&lt;/strong&gt;. We’ll cover signup, login, JWT-based sessions, and protecting API routes — all with a clean architecture.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-why-nextjs--prisma&#34;&gt;📦 Why Next.js + Prisma?&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🔥 &lt;strong&gt;Next.js&lt;/strong&gt; provides powerful API routes and full-stack flexibility.&lt;/li&gt;&#xA;&lt;li&gt;🧠 &lt;strong&gt;Prisma&lt;/strong&gt; simplifies database access with a modern ORM and type safety.&lt;/li&gt;&#xA;&lt;li&gt;🔐 Together, they form a solid stack for secure and scalable apps.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-prerequisites&#34;&gt;🛠 Prerequisites&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Node.js and npm&lt;/li&gt;&#xA;&lt;li&gt;Basic knowledge of Next.js and React&lt;/li&gt;&#xA;&lt;li&gt;PostgreSQL (or any supported DB)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-project-setup&#34;&gt;📁 Project Setup&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npx create-next-app auth-prisma-app&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; auth-prisma-app&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm install prisma @prisma/client bcryptjs jsonwebtoken&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npx prisma init&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:51236/categories/authentication/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:51236/authentication-nextjs-prisma/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:51236/authors/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -41,9 +47,6 @@
     <loc>http://localhost:51236/categories/css/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:51236/categories/culture/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:51236/categories/html/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
@@ -65,9 +68,6 @@
     <loc>http://localhost:51236/my-fifth-post/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:51236/my-first-post/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:51236/my-fourth-post/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
@@ -83,10 +83,11 @@
     <loc>http://localhost:51236/categories/technology/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:51236/categories/travel/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:51236/my-sixth-post/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:51236/categories/culture/</loc>
+  </url><url>
+    <loc>http://localhost:51236/categories/travel/</loc>
   </url>
 </urlset>
