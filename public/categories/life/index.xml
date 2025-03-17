@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life on Lama dev blog</title>
-    <link>http://localhost:1313/categories/life/</link>
+    <link>http://localhost:51236/categories/life/</link>
     <description>Recent content in Life on Lama dev blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51236/categories/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Express.js vs NestJS: Which One Should You Choose?</title>
-      <link>http://localhost:1313/express-js-vs-nest-js/</link>
+      <link>http://localhost:51236/express-js-vs-nest-js/</link>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/express-js-vs-nest-js/</guid>
+      <guid>http://localhost:51236/express-js-vs-nest-js/</guid>
       <description>&lt;p&gt;When it comes to backend development in &lt;strong&gt;Node.js&lt;/strong&gt;, two names frequently stand out: &lt;strong&gt;Express.js&lt;/strong&gt; and &lt;strong&gt;NestJS&lt;/strong&gt;. While both are powerful and widely used, they differ greatly in terms of architecture, scalability, learning curve, and developer experience.&lt;/p&gt;&#xA;&lt;p&gt;In this blog post, let’s explore the differences, use cases, pros and cons of &lt;strong&gt;Express.js&lt;/strong&gt; and &lt;strong&gt;NestJS&lt;/strong&gt;, so you can decide which framework suits your next project best.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-what-is-expressjs&#34;&gt;🧠 What is Express.js?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://expressjs.com/&#34;&gt;Express.js&lt;/a&gt; is a &lt;strong&gt;minimal and flexible Node.js web application framework&lt;/strong&gt; that provides a robust set of features for web and mobile applications. It’s been around since 2010 and is known for its simplicity and speed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Fifth Post My Fifth Post My Fifth Post </title>
-      <link>http://localhost:1313/my-fifth-post/</link>
+      <link>http://localhost:51236/my-fifth-post/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/my-fifth-post/</guid>
+      <guid>http://localhost:51236/my-fifth-post/</guid>
       <description>&lt;p&gt;To create a blog post in Hugo that includes code snippets with proper syntax highlighting and descriptions, follow these steps:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1. Create a New Blog Post:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Use Hugo&amp;rsquo;s command-line tool to generate a new post. Open your terminal and run:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new posts/your-post-title.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Replace &lt;code&gt;your-post-title.md&lt;/code&gt; with your desired filename. This command creates a new Markdown file in the &lt;code&gt;content/posts&lt;/code&gt; directory.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. Add Content to the Post:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Open the newly created Markdown file in your preferred text editor. Add your content, including code snippets. Hugo offers multiple methods to include code snippets with syntax highlighting:&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Third Post</title>
-      <link>http://localhost:1313/my-third-post/</link>
+      <link>http://localhost:51236/my-third-post/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/my-third-post/</guid>
+      <guid>http://localhost:51236/my-third-post/</guid>
       <description>&lt;p&gt;Test Content&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Your JavaScript code here&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>

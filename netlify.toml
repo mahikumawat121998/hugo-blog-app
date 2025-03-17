@@ -3,4 +3,4 @@
   command = "hugo"
 
 [context.production.environment]
-  HUGO_VERSION = "0.120.3"
+  HUGO_VERSION = "0.145.0"
