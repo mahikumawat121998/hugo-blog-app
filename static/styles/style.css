@@ -372,6 +372,7 @@ em {
   margin-top: 50px;
 }
 
+
 .singleContent {
   flex: 3;
   font-size: 20px;
@@ -475,6 +476,92 @@ body.light .slide-button{
   color: black;
 
 }
+
+.shareIcons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.shareTitle {
+  font-size: 14px;
+  width: max-content;
+  font-weight: 500;
+  padding: 3px 0px;
+  border-bottom: 0.5px solid gray;
+}
+.share {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 2opx;
+}
+.contentSide {
+  flex: 1;
+  position: sticky;
+  top: 15rem;
+  height: max-content;
+}
+.copyLink {
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  font-size: 12px;
+  padding: 5px;
+  background-color: #283246;
+  color: var(--mainLight);
+}
+
+.copyLink:hover {
+  background-color: #343c4e;
+}
+body.light .copyLink {
+  background-color: #f5f5f5;
+  color: #555;
+}
+
+body.light .copyLink:hover {
+  background-color: #eee;
+}
+
+
+.join {
+  margin-top: 50px;
+}
+
+.dose {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.doseText {
+  color: tomato;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.joinText {
+  background-color: #283246;
+  color: #cbd5e1;
+  padding: 10px;
+}
+
+body.light .dose {
+  margin-bottom: 5px;
+}
+body.light .doseText {
+  font-size: 16px;
+  font-weight: 500 !important;
+}
+
+body.light .joinText {
+  background-color: #f5f5f5;
+  color: #555;
+}
+
+
 
 .slide-content {
     display: flex;

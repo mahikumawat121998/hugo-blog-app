@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Development on Lama dev blog</title>
-    <link>http://localhost:51236/categories/web-development/</link>
+    <link>http://localhost:61198/categories/web-development/</link>
     <description>Recent content in Web Development on Lama dev blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:51236/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:61198/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Authentication with Next.js and Prisma</title>
+      <link>http://localhost:61198/authentication-nextjs-prisma/</link>
+      <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:61198/authentication-nextjs-prisma/</guid>
+      <description>&lt;p&gt;Test Connection&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Express vs NestJS: Which One Should You Choose?</title>
-      <link>http://localhost:51236/my-seventh-post/</link>
+      <link>http://localhost:61198/my-seventh-post/</link>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51236/my-seventh-post/</guid>
+      <guid>http://localhost:61198/my-seventh-post/</guid>
       <description>&lt;p&gt;When it comes to backend development in &lt;strong&gt;Node.js&lt;/strong&gt;, two names frequently stand out: &lt;strong&gt;Express.js&lt;/strong&gt; and &lt;strong&gt;NestJS&lt;/strong&gt;. While both are powerful and widely used, they differ greatly in terms of architecture, scalability, learning curve, and developer experience.&lt;/p&gt;&#xA;&lt;p&gt;In this blog post, let’s explore the differences, use cases, pros and cons of &lt;strong&gt;Express.js&lt;/strong&gt; and &lt;strong&gt;NestJS&lt;/strong&gt;, so you can decide which framework suits your next project best.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-what-is-expressjs&#34;&gt;🧠 What is Express.js?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://expressjs.com/&#34;&gt;Express.js&lt;/a&gt; is a &lt;strong&gt;minimal and flexible Node.js web application framework&lt;/strong&gt; that provides a robust set of features for web and mobile applications. It’s been around since 2010 and is known for its simplicity and speed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Express.js vs NestJS: Which One Should You Choose?</title>
-      <link>http://localhost:51236/express-js-vs-nest-js/</link>
+      <link>http://localhost:61198/express-js-vs-nest-js/</link>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51236/express-js-vs-nest-js/</guid>
+      <guid>http://localhost:61198/express-js-vs-nest-js/</guid>
       <description>&lt;p&gt;When it comes to backend development in &lt;strong&gt;Node.js&lt;/strong&gt;, two names frequently stand out: &lt;strong&gt;Express.js&lt;/strong&gt; and &lt;strong&gt;NestJS&lt;/strong&gt;. While both are powerful and widely used, they differ greatly in terms of architecture, scalability, learning curve, and developer experience.&lt;/p&gt;&#xA;&lt;p&gt;In this blog post, let’s explore the differences, use cases, pros and cons of &lt;strong&gt;Express.js&lt;/strong&gt; and &lt;strong&gt;NestJS&lt;/strong&gt;, so you can decide which framework suits your next project best.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-what-is-expressjs&#34;&gt;🧠 What is Express.js?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://expressjs.com/&#34;&gt;Express.js&lt;/a&gt; is a &lt;strong&gt;minimal and flexible Node.js web application framework&lt;/strong&gt; that provides a robust set of features for web and mobile applications. It’s been around since 2010 and is known for its simplicity and speed.&lt;/p&gt;</description>
     </item>
   </channel>

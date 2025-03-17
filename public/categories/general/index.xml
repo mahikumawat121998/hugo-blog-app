@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>General on Lama dev blog</title>
-    <link>http://localhost:1313/categories/general/</link>
+    <link>http://localhost:61198/categories/general/</link>
     <description>Recent content in General on Lama dev blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:61198/categories/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Express.js vs NestJS: Which One Should You Choose?</title>
-      <link>http://localhost:1313/express-js-vs-nest-js/</link>
+      <link>http://localhost:61198/express-js-vs-nest-js/</link>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/express-js-vs-nest-js/</guid>
+      <guid>http://localhost:61198/express-js-vs-nest-js/</guid>
       <description>&lt;p&gt;When it comes to backend development in &lt;strong&gt;Node.js&lt;/strong&gt;, two names frequently stand out: &lt;strong&gt;Express.js&lt;/strong&gt; and &lt;strong&gt;NestJS&lt;/strong&gt;. While both are powerful and widely used, they differ greatly in terms of architecture, scalability, learning curve, and developer experience.&lt;/p&gt;&#xA;&lt;p&gt;In this blog post, let’s explore the differences, use cases, pros and cons of &lt;strong&gt;Express.js&lt;/strong&gt; and &lt;strong&gt;NestJS&lt;/strong&gt;, so you can decide which framework suits your next project best.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-what-is-expressjs&#34;&gt;🧠 What is Express.js?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://expressjs.com/&#34;&gt;Express.js&lt;/a&gt; is a &lt;strong&gt;minimal and flexible Node.js web application framework&lt;/strong&gt; that provides a robust set of features for web and mobile applications. It’s been around since 2010 and is known for its simplicity and speed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Fifth Post My Fifth Post My Fifth Post </title>
-      <link>http://localhost:1313/my-fifth-post/</link>
+      <link>http://localhost:61198/my-fifth-post/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/my-fifth-post/</guid>
+      <guid>http://localhost:61198/my-fifth-post/</guid>
       <description>&lt;p&gt;To create a blog post in Hugo that includes code snippets with proper syntax highlighting and descriptions, follow these steps:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1. Create a New Blog Post:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Use Hugo&amp;rsquo;s command-line tool to generate a new post. Open your terminal and run:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new posts/your-post-title.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Replace &lt;code&gt;your-post-title.md&lt;/code&gt; with your desired filename. This command creates a new Markdown file in the &lt;code&gt;content/posts&lt;/code&gt; directory.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. Add Content to the Post:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Open the newly created Markdown file in your preferred text editor. Add your content, including code snippets. Hugo offers multiple methods to include code snippets with syntax highlighting:&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Fourth Post</title>
-      <link>http://localhost:1313/my-fourth-post/</link>
+      <link>http://localhost:61198/my-fourth-post/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/my-fourth-post/</guid>
+      <guid>http://localhost:61198/my-fourth-post/</guid>
       <description>&lt;p&gt;Test Content&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Second Post</title>
-      <link>http://localhost:1313/my-second-post/</link>
+      <link>http://localhost:61198/my-second-post/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/my-second-post/</guid>
+      <guid>http://localhost:61198/my-second-post/</guid>
       <description>&lt;p&gt;Test Content&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Third Post</title>
-      <link>http://localhost:1313/my-third-post/</link>
+      <link>http://localhost:61198/my-third-post/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/my-third-post/</guid>
+      <guid>http://localhost:61198/my-third-post/</guid>
       <description>&lt;p&gt;Test Content&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Your JavaScript code here&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Understanding useEffect in React: Use Cases, Examples &amp; Best Practices</title>
-      <link>http://localhost:1313/my-sixth-post/</link>
+      <link>http://localhost:61198/my-sixth-post/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/my-sixth-post/</guid>
+      <guid>http://localhost:61198/my-sixth-post/</guid>
       <description>&lt;p&gt;The &lt;code&gt;useEffect&lt;/code&gt; Hook is a fundamental aspect of React that allows developers to handle side effects in functional components. Introduced in React 16.8, it replaces the need for class-based lifecycle methods, enabling a more streamlined approach to managing side effects such as data fetching, subscriptions, or manually changing the DOM.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Understanding &lt;code&gt;useEffect&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In functional components, side effects are operations that interact with the outside world or affect the component outside of rendering, such as fetching data from an API, setting up a subscription, or manually manipulating the DOM. The &lt;code&gt;useEffect&lt;/code&gt; Hook provides a way to perform these side effects.&lt;/p&gt;</description>
     </item>
   </channel>
