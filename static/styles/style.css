@@ -520,11 +520,20 @@ body.light .copyLink {
   background-color: #b7bec6dd;
   color: #555;
 }
+body.light pre{
+  color: var(--textSoft);
+}
 
 body.light .copyLink:hover {
   background-color: #77889add;
 }
 
+body.light em {
+  background-color: #e5e9ee85;
+}
+em{
+  padding:3px;
+}
 pre{
   background-color: #282a36;
 }

@@ -72,7 +72,8 @@ CSS filters are a set of properties that allow you to apply various graphical ef
 ```
 Here are some of the most commonly used CSS filters and how they can transform your web design:
 
-<em>Blur:</em> The blur filter adds a Gaussian blur to an element, creating a soft and dreamy effect. It’s perfect for creating focus on a specific part of an image or for adding an artistic touch to your design.
+<em>Blur:</em> 
+The blur filter adds a Gaussian blur to an element, creating a soft and dreamy effect. It’s perfect for creating focus on a specific part of an image or for adding an artistic touch to your design.
 
  Grayscale: With the grayscale filter, you can turn colorful elements into black and white, giving your design a classic and timeless look. This filter is great for creating a vintage vibe.
 
