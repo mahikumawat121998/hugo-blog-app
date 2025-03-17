@@ -3,9 +3,9 @@
   {{ range .Paginator.Pages }}
   <div class="listItem">
     <img
-      src={{
+      src="{{
       .Params.image
-      }}
+      }}"
       alt="{{.Title}}"
       class="listItemImage"
       loading="lazy"
@@ -27,7 +27,7 @@
         {{ range (.GetTerms "categories") }}
           {{ $nameHash := crypto.MD5 .Name }}
           {{ $color := printf "#%s" (substr $nameHash 0 6) }}
-          <a class="listItemCategory gradient-border-button1" href="{{ .Permalink }}" style="background-color: {{ $color }}">
+          <a class="listItemCategory gradient-border-button1" href="{{ .Permalink }}">
             {{ .Name }}
           </a>
         {{ end }}

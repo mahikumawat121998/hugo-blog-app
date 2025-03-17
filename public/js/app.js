@@ -40,3 +40,25 @@ function getRandomHexColor() {
 const element = document.getElementById('category-link1');
 element.style.backgroundColor = getRandomHexColor(); // or getRandomRgbColor() or getRandomHslColor()
  
+function copyLinkToClipboard(elem, link) {
+  navigator.clipboard.writeText(link).then(() => {
+    elem.innerText = "Copied!";
+    // setTimeout(() => {
+    //   elem.innerText = "Copy Link";
+    // }, 2000);
+  }
+);
+}
+function shareLink(link, title) {
+  if (navigator.share) {
+    navigator.share({
+      title: title,
+      text: title,
+      url: link,
+    }).then(() => {
+      console.log('Thanks for sharing!');
+    }).catch(console.error);
+  } else {
+    alert('Share not supported in this browser. You can copy the link manually.');
+  }
+}

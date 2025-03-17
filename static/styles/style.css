@@ -184,8 +184,8 @@ body.light .light .ball{
 .listItemCategory {
   padding: 5px;
   border-radius: 5px;
-  background-color: var(--bgSoft);
-  color: var(--textSoft);
+  background-color: var(--textSoft);
+  color: var(--bgSoft);
   font-size: 14px;
 }
 
@@ -423,11 +423,12 @@ em {
 .gradient-border-button1 {
   position: relative;
   padding: 4px 9px;
-  background: #1e293b;
+  /* background: #1e293b; */
   /* z-index: ; */
   /* font-size: 14px; */
   border: none;
   border-radius: 4px;
+  color: #131c2f;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -516,12 +517,12 @@ body.light .slide-button{
   background-color: #343c4e;
 }
 body.light .copyLink {
-  background-color: #f5f5f5;
+  background-color: #b7bec6dd;
   color: #555;
 }
 
 body.light .copyLink:hover {
-  background-color: #eee;
+  background-color: #77889add;
 }
 
 
@@ -557,8 +558,8 @@ body.light .doseText {
 }
 
 body.light .joinText {
-  background-color: #f5f5f5;
-  color: #555;
+  background-color: #b7bec6dd;
+  color: var(--bgSoft);
 }
 
 
