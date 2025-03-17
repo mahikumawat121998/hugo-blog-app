@@ -1,9 +1,9 @@
 baseURL = 'https://blogcube.netlify.app/'
 languageCode = 'en-us'
-title = 'Blogify blog'
+title = 'Blog Cube'
 
 [pagination]
-  pagerSize = 3
+  pagerSize = 5
 
 [params]
   description = "The fastest blog"
