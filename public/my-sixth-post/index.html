@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content=React’s&#32;useEffect&#32;is&#32;one&#32;of&#32;the&#32;most&#32;powerful&#32;and&#32;essential&#32;hooks&#32;in&#32;the&#32;React&#32;ecosystem.&#32;Yet,&#32;it’s&#32;also&#32;one&#32;of&#32;the&#32;most&#32;misunderstood.&#32;Whether&#32;you&#39;re&#32;fetching&#32;data,&#32;manipulating&#32;the&#32;DOM,&#32;or&#32;syncing&#32;with&#32;external&#32;systems—useEffect&#32;is&#32;your&#32;go-to&#32;solution.>
   <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/fillter.css">
   <link rel="stylesheet" href="/styles/syntax.css">
   <link rel="stylesheet" href="/styles/syntax.css">
   <link rel="icon" href="/images/favicon.png" />
@@ -19,7 +20,8 @@
   <div class="container">
     <nav class="navbar">
   <div class="logo">
-    <a href="/">Blog Cube</a>
+    <a class="extra-bold" href="/">Blog Cube</a>
+     
   </div>
   <div class="links">
     <div class="toggle" style="visibility: visible;
@@ -80,7 +82,8 @@
           fill="#cbd5e1"
         />
       </svg>
-      <span>Search</span>
+      <span id="myButton">Search</span>
+      
     </div>
   </div>
 </nav>
@@ -737,6 +740,8 @@
 </div>
 
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
   <script src="/js/app.js"></script>
+
 </body>
 </html>

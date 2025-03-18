@@ -47,10 +47,13 @@
     <loc>http://localhost:1313/css-tips-and-tricks/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/backend/</loc>
+    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/css/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/html/</loc>
+    <loc>http://localhost:1313/categories/expressjs/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/jane-doe/</loc>
@@ -68,10 +71,13 @@
     <loc>http://localhost:1313/my-fifth-post/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/my-fourth-post/</loc>
+    <loc>http://localhost:1313/next-auth-with-iron-session/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/my-second-post/</loc>
+    <loc>http://localhost:1313/next-vs-express/</loc>
+    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/nextjs/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/react/</loc>

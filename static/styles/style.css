@@ -62,7 +62,7 @@ a {
   font-weight: bold;
   font-size: 24px;
 }
-
+ 
 .links {
   display: flex;
   align-items: center;
@@ -378,12 +378,21 @@ em {
   padding: 2px 6px;
   border-radius: 4px;
 }
+.extra-bold {
+  font-weight: 900;
+  color: var(--textSoft);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.723);
+  letter-spacing: 0.7px;
+  text-transform: uppercase; /* Optional */
+}
 
-/* @keyframes glowHighlight {
-  0% { box-shadow: 0 0 5px #929fadcf; }
-  50% { box-shadow: 0 0 15px #b7bec6dd; }
-  100% { box-shadow: 0 0 5px #768290dd; }
-} */
+body.light .extra-bold {
+  font-weight: 900;
+  color: #111;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.841);
+  letter-spacing: 0.7px;
+  text-transform: uppercase; /* Optional */
+}
 
 
 .singleContent {
@@ -756,3 +765,89 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
     font-size: 20px;
   }
 }
+
+
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#searchResults li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+#searchResults li a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+#searchResults li a:hover {
+  text-decoration: underline;
+}
+
+.search-container {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#searchInput {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.results-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  max-height: 250px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  margin-top: -1px;
+}
+
+.result-item {
+  list-style: none;
+  padding: 12px 16px;
+  border-bottom: 1px solid #f1f1f1;
+  transition: background 0.2s ease-in-out;
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}
+
+.result-item a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  font-weight: 500;
+}
+
+.result-item:hover {
+  background-color: #f7f7f7;
+}
+
+.result-item a:hover {
+  color: #0077cc;
+}
+/* 
+.highlight {
+  background-color: yellow;
+  color: black;
+  border: 2px solid orange;
+} */

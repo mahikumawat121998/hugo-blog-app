@@ -4,3 +4,13 @@
 
 [context.production.environment]
   HUGO_VERSION = "0.145.0"
+
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "SearchIndex"]

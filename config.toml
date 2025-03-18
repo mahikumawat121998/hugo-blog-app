@@ -19,4 +19,12 @@ title = 'Blog Cube'
     noClasses = false  # Use CSS classes for styling
     style = "monokai"  # Choose your preferred style
     
-    
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "SearchIndex"]

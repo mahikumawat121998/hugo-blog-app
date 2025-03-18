@@ -38,8 +38,7 @@ function getRandomHexColor() {
   return color;
 }
 const element = document.getElementById('category-link1');
-element.style.backgroundColor = getRandomHexColor(); // or getRandomRgbColor() or getRandomHslColor()
- 
+// element.style?.backgroundColor = getRandomHexColor(); 
 function copyLinkToClipboard(elem, link) {
   navigator.clipboard.writeText(link).then(() => {
     elem.innerText = "Copied!";
@@ -62,3 +61,50 @@ function shareLink(link, title) {
     alert('Share not supported in this browser. You can copy the link manually.');
   }
 }
+ 
+
+let posts = [];
+
+// Fetch index.json
+fetch('/index.json')
+  .then(response => response.json())
+  .then(data => {
+    posts = data;
+    console.log("Fetched Posts:", posts); 
+  })
+  .catch(error => {
+    console.error("Failed to load index.json", error);
+  });
+
+// DOM elements
+const input = document.getElementById('searchInput');
+const resultsContainer = document.getElementById('searchResults');
+
+input.addEventListener('input', function () {
+  const query = this.value.toLowerCase();
+  resultsContainer.innerHTML = '';
+
+  if (query.length === 0) return;
+
+  const filtered = posts.filter(post =>
+    post.title.toLowerCase().includes(query)
+  );
+
+  if (filtered.length === 0) {
+    resultsContainer.innerHTML = '<li>No posts found.</li>';
+  } else {
+    filtered.forEach(post => {
+      const li = document.createElement('li');
+      li.innerHTML = `<a href="${post.url}">${post.title}</a>`;
+      resultsContainer.appendChild(li);
+    });
+  }
+});
+
+const searchInputContainer = document.getElementsByClassName("search-container")[0]; // get the first element
+const button = document.getElementById('myButton');
+
+button.addEventListener('click', function () {
+  console.log("hello");
+  searchInputContainer.classList.toggle('highlight');
+});

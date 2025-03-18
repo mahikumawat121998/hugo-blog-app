@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content=This&#32;is&#32;a&#32;description>
   <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/fillter.css">
   <link rel="stylesheet" href="/styles/syntax.css">
   <link rel="stylesheet" href="/styles/syntax.css">
   <link rel="icon" href="/images/favicon.png" />
@@ -19,7 +20,8 @@
   <div class="container">
     <nav class="navbar">
   <div class="logo">
-    <a href="/">Blog Cube</a>
+    <a class="extra-bold" href="/">Blog Cube</a>
+     
   </div>
   <div class="links">
     <div class="toggle" style="visibility: visible;
@@ -80,7 +82,8 @@
           fill="#cbd5e1"
         />
       </svg>
-      <span>Search</span>
+      <span id="myButton">Search</span>
+      
     </div>
   </div>
 </nav>
@@ -421,20 +424,14 @@
 <p>This method provides basic syntax highlighting based on the specified language.</p>
 <p><strong>b. Using Hugo&rsquo;s <code>highlight</code> Shortcode:</strong></p>
 <p>Hugo&rsquo;s built-in <code>highlight</code> shortcode offers advanced syntax highlighting features, such as line numbers and line highlighting.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="hl"><span class="lnt">2
-</span></span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
-</span></span><span class="line hl"><span class="cl"><span class="err">```</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="err">```</span><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hello, World!&#34;</span><span class="p">)</span></span></span></code></pre></td></tr></table>
-</div>
-</div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="text-highlight-glow">
+def hello_world():
+```
+
+    ```print("Hello, World!")
+
+</span>
+
 </span></span></code></pre></div><p>In this example, line numbers are displayed in a table format, and the second line is highlighted.</p>
 <p><strong>c. Embedding GitHub Gists:</strong></p>
 <p>To embed code snippets stored in GitHub Gists, use Hugo&rsquo;s <code>gist</code> shortcode. First, create a Gist on GitHub and copy its ID. Then, embed it in your post as follows:</p>
@@ -672,6 +669,8 @@
 </div>
 
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
   <script src="/js/app.js"></script>
+
 </body>
 </html>

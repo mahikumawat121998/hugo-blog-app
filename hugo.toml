@@ -19,3 +19,12 @@ title = 'Lama dev blog'
     style = "monokai"
     lineNos = false
     
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "SearchIndex"]
