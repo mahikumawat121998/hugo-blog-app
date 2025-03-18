@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/categories/ux-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>5 CSS Tips and Tricks Every Web Developer Should Know</title>
-      <link>http://localhost:1313/my-third-post/</link>
+      <link>http://localhost:1313/css-tips-and-tricks/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/my-third-post/</guid>
+      <guid>http://localhost:1313/css-tips-and-tricks/</guid>
       <description>&lt;p&gt;Let’s explore some essential CSS tips and tricks that will help you streamline your web design process and build stunning, creative websites.&lt;/p&gt;&#xA;&lt;p&gt;Before starting, I want to add here the video version of this blog post for visual-learners :)&lt;/p&gt;&#xA;&lt;p&gt;For others let’s get started.&lt;/p&gt;&#xA;&lt;h3 id=&#34;css-clip-path&#34;&gt;CSS Clip-Path&lt;/h3&gt;&#xA;&lt;p&gt;Clip path allows you to create custom shapes by clipping the visible area of an HTML element. You can think of it as a virtual pair of scissors that allows you to cut and reshape your items. By manipulating this property, you can create various shapes and effects that go beyond the typical rectangles and squares.&lt;/p&gt;</description>
     </item>
   </channel>
