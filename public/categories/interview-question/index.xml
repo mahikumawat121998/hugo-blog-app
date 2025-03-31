@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Interview Question on Lama dev blog</title>
-    <link>http://localhost:61912/categories/interview-question/</link>
+    <link>http://localhost:50528/categories/interview-question/</link>
     <description>Recent content in Interview Question on Lama dev blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:61912/categories/interview-question/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50528/categories/interview-question/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Temporal Dead Zone(TDZ) in JavaScript</title>
-      <link>http://localhost:61912/temporal-dead-zone/</link>
+      <link>http://localhost:50528/temporal-dead-zone/</link>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61912/temporal-dead-zone/</guid>
+      <guid>http://localhost:50528/temporal-dead-zone/</guid>
       <description>&lt;p&gt;Let’s start with a silly programming joke, shall we ? 😜&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;How many programmers does it take to change a light bulb?&#xA;None. It&amp;rsquo;s a hardware problem.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;JavaScript is a versatile language, but it also comes with some intricacies that can catch even seasoned developers off guard. One such concept is the Temporal Dead Zone (TDZ). In this article, we will explore TDZ, why it exists, and how it impacts your code with real-world examples.&lt;/p&gt;</description>
     </item>
   </channel>

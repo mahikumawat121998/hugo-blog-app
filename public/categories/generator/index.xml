@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generator on Lama dev blog</title>
+    <link>http://localhost:1313/categories/generator/</link>
+    <description>Recent content in Generator on Lama dev blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Dec 2023 16:55:24 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/generator/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is a Generator Function in JavaScript?</title>
+      <link>http://localhost:1313/generator-function/</link>
+      <pubDate>Fri, 22 Dec 2023 16:55:24 +0100</pubDate>
+      <guid>http://localhost:1313/generator-function/</guid>
+      <description>&lt;p&gt;A generator function is a special kind of function that can be paused and resumed, allowing it to yield multiple values over time. Unlike regular functions that execute from start to finish, generator functions return an iterator object that can be used to manually control the function&amp;rsquo;s execution.&lt;/p&gt;&#xA;&lt;h3 id=&#34;syntax&#34;&gt;Syntax:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Defined using the function* syntax (the asterisk * after function).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Uses the yield keyword to pause the function and return a value.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Interview on Lama dev blog</title>
-    <link>http://localhost:61912/categories/interview/</link>
+    <link>http://localhost:50528/categories/interview/</link>
     <description>Recent content in Interview on Lama dev blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Nov 2023 16:55:24 +0100</lastBuildDate>
-    <atom:link href="http://localhost:61912/categories/interview/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50528/categories/interview/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is the Currying function in js</title>
-      <link>http://localhost:61912/currying-function/</link>
+      <link>http://localhost:50528/currying-function/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:61912/currying-function/</guid>
+      <guid>http://localhost:50528/currying-function/</guid>
       <description>&lt;p&gt;Have you noticed how from all of the classic Array methods in JavaScript to iterate and perform some transformations over that data such as map and forEach the one that never really gets understood is reduce?&lt;/p&gt;&#xA;&lt;p&gt;Well, the same happens with Currying in Functional Programming. Everyone is all in for higher-order functions, or even pure functions with no side effects, but the minute you start talking about currying, their faces go like this:&lt;/p&gt;</description>
     </item>
   </channel>

@@ -47,6 +47,18 @@
     <loc>http://localhost:1313/categories/web-development/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/generator/</loc>
+    <lastmod>2023-12-22T16:55:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/interview/</loc>
+    <lastmod>2023-12-22T16:55:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/js/</loc>
+    <lastmod>2023-12-22T16:55:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/generator-function/</loc>
+    <lastmod>2023-12-22T16:55:24+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/css-tips-and-tricks/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
@@ -62,13 +74,7 @@
     <loc>http://localhost:1313/first-hugo-project/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/interview/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/authors/jane-doe/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/js/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/mk-dev/</loc>
@@ -102,6 +108,8 @@
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/-dev/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/gener/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/interview-ques/</loc>
   </url><url>
