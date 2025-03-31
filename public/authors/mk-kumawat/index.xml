@@ -1,47 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mk Kumawat on Lama dev blog</title>
-    <link>http://localhost:1313/authors/mk-kumawat/</link>
-    <description>Recent content in Mk Kumawat on Lama dev blog</description>
+    <title>MK Kumawat on Lama dev blog</title>
+    <link>http://localhost:61912/authors/mk-kumawat/</link>
+    <description>Recent content in MK Kumawat on Lama dev blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/authors/mk-kumawat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:61912/authors/mk-kumawat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authentication with Next.js and Prisma</title>
-      <link>http://localhost:1313/authentication-nextjs-prisma/</link>
+      <link>http://localhost:61912/authentication-nextjs-prisma/</link>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authentication-nextjs-prisma/</guid>
+      <guid>http://localhost:61912/authentication-nextjs-prisma/</guid>
       <description>&lt;p&gt;Test Connection&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Express vs NestJS: Which One Should You Choose?</title>
-      <link>http://localhost:1313/my-seventh-post/</link>
+      <title>Express.js vs NestJS: Which One Should You Choose?</title>
+      <link>http://localhost:61912/express-js-vs-nest-js/</link>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/my-seventh-post/</guid>
+      <guid>http://localhost:61912/express-js-vs-nest-js/</guid>
       <description>&lt;p&gt;When it comes to backend development in &lt;strong&gt;Node.js&lt;/strong&gt;, two names frequently stand out: &lt;strong&gt;Express.js&lt;/strong&gt; and &lt;strong&gt;NestJS&lt;/strong&gt;. While both are powerful and widely used, they differ greatly in terms of architecture, scalability, learning curve, and developer experience.&lt;/p&gt;&#xA;&lt;p&gt;In this blog post, let’s explore the differences, use cases, pros and cons of &lt;strong&gt;Express.js&lt;/strong&gt; and &lt;strong&gt;NestJS&lt;/strong&gt;, so you can decide which framework suits your next project best.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-what-is-expressjs&#34;&gt;🧠 What is Express.js?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://expressjs.com/&#34;&gt;Express.js&lt;/a&gt; is a &lt;strong&gt;minimal and flexible Node.js web application framework&lt;/strong&gt; that provides a robust set of features for web and mobile applications. It’s been around since 2010 and is known for its simplicity and speed.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Express.js vs NestJS: Which One Should You Choose?</title>
-      <link>http://localhost:1313/express-js-vs-nest-js/</link>
+      <title>Temporal Dead Zone(TDZ) in JavaScript</title>
+      <link>http://localhost:61912/temporal-dead-zone/</link>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/express-js-vs-nest-js/</guid>
-      <description>&lt;p&gt;When it comes to backend development in &lt;strong&gt;Node.js&lt;/strong&gt;, two names frequently stand out: &lt;strong&gt;Express.js&lt;/strong&gt; and &lt;strong&gt;NestJS&lt;/strong&gt;. While both are powerful and widely used, they differ greatly in terms of architecture, scalability, learning curve, and developer experience.&lt;/p&gt;&#xA;&lt;p&gt;In this blog post, let’s explore the differences, use cases, pros and cons of &lt;strong&gt;Express.js&lt;/strong&gt; and &lt;strong&gt;NestJS&lt;/strong&gt;, so you can decide which framework suits your next project best.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-what-is-expressjs&#34;&gt;🧠 What is Express.js?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://expressjs.com/&#34;&gt;Express.js&lt;/a&gt; is a &lt;strong&gt;minimal and flexible Node.js web application framework&lt;/strong&gt; that provides a robust set of features for web and mobile applications. It’s been around since 2010 and is known for its simplicity and speed.&lt;/p&gt;</description>
+      <guid>http://localhost:61912/temporal-dead-zone/</guid>
+      <description>&lt;p&gt;Let’s start with a silly programming joke, shall we ? 😜&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;How many programmers does it take to change a light bulb?&#xA;None. It&amp;rsquo;s a hardware problem.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;JavaScript is a versatile language, but it also comes with some intricacies that can catch even seasoned developers off guard. One such concept is the Temporal Dead Zone (TDZ). In this article, we will explore TDZ, why it exists, and how it impacts your code with real-world examples.&lt;/p&gt;</description>
     </item>
     <item>
       <title>5 CSS Tips and Tricks Every Web Developer Should Know</title>
-      <link>http://localhost:1313/css-tips-and-tricks/</link>
+      <link>http://localhost:61912/css-tips-and-tricks/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/css-tips-and-tricks/</guid>
+      <guid>http://localhost:61912/css-tips-and-tricks/</guid>
       <description>&lt;p&gt;Let’s explore some essential CSS tips and tricks that will help you streamline your web design process and build stunning, creative websites.&lt;/p&gt;&#xA;&lt;h2 id=&#34;css-clip-path&#34;&gt;CSS Clip-Path&lt;/h2&gt;&#xA;&lt;p&gt;Clip path allows you to create custom shapes by clipping the visible area of an HTML element. You can think of it as a virtual pair of scissors that allows you to cut and reshape your items. By manipulating this property, you can create various shapes and effects that go beyond the typical rectangles and squares.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Next.js vs Express: Which one is Better for a Backend Server?</title>
-      <link>http://localhost:1313/next-vs-express/</link>
+      <title>How to run your first hugo project </title>
+      <link>http://localhost:61912/first-hugo-project/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:1313/next-vs-express/</guid>
+      <guid>http://localhost:61912/first-hugo-project/</guid>
+      <description>&lt;p&gt;To create a blog post in Hugo that includes code snippets with proper syntax highlighting and descriptions, follow these steps:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1. Create a New Blog Post:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Use Hugo&amp;rsquo;s command-line tool to generate a new post. Open your terminal and run:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new posts/your-post-title.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Replace &lt;code&gt;your-post-title.md&lt;/code&gt; with your desired filename. This command creates a new Markdown file in the &lt;code&gt;content/posts&lt;/code&gt; directory.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. Add Content to the Post:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Open the newly created Markdown file in your preferred text editor. Add your content, including code snippets. Hugo offers multiple methods to include code snippets with syntax highlighting:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Next.js vs Express: Which one is Better for a Backend Server?</title>
+      <link>http://localhost:61912/next-vs-express/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>http://localhost:61912/next-vs-express/</guid>
       <description>&lt;p&gt;Two popular frameworks, Next.js and Express, serve different features and purposes. In this blog post, we will explore the differences between Next.js and Express and discuss when and why you might choose one over the other.&lt;/p&gt;&#xA;&lt;h2 id=&#34;purpose-os-nextjs&#34;&gt;Purpose os Next.js&lt;/h2&gt;&#xA;&lt;p&gt;Next.js is a powerful framework built on top of React, focusing on server-rendered and statically generated React applications. It provides a structure for building complex, dynamic web applications and offers features like automatic code splitting, server-side rendering (SSR), and static site generation (SSG). These features enhance performance, improve SEO, and provide faster initial page loads. On top of that, Next.js has a built-in API routing system that allows creating API endpoints securely connecting with third-party services and consuming from the front end. It can also use serverless functions and edge network deployment to build scalable APIs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is the Currying function in js</title>
+      <link>http://localhost:61912/currying-function/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>http://localhost:61912/currying-function/</guid>
+      <description>&lt;p&gt;Have you noticed how from all of the classic Array methods in JavaScript to iterate and perform some transformations over that data such as map and forEach the one that never really gets understood is reduce?&lt;/p&gt;&#xA;&lt;p&gt;Well, the same happens with Currying in Functional Programming. Everyone is all in for higher-order functions, or even pure functions with no side effects, but the minute you start talking about currying, their faces go like this:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

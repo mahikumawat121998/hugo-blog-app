@@ -28,7 +28,7 @@ The TDZ is designed to help catch errors in your code by throwing an error when 
 
 ### Code Example
 
-```css
+```javascript
 console.log(myVar); // undefined
 var myVar = 5;
 console.log(myVar); // 5
