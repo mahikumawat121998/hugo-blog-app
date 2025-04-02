@@ -1,6 +1,6 @@
 baseURL = 'https://blogcube.netlify.app/'
 languageCode = 'en-us'
-title = 'Lama dev blog'
+title = 'BlogCube blog'
 
 [pagination]
   pagerSize = 5

@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>UX Design on Lama dev blog</title>
-    <link>http://localhost:50528/categories/ux-design/</link>
-    <description>Recent content in UX Design on Lama dev blog</description>
+    <title>UX Design on BlogCube blog</title>
+    <link>http://localhost:1313/categories/ux-design/</link>
+    <description>Recent content in UX Design on BlogCube blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Dec 2023 16:55:24 +0100</lastBuildDate>
-    <atom:link href="http://localhost:50528/categories/ux-design/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>What is a Generator Function in JavaScript?</title>
-      <link>http://localhost:50528/generator-function/</link>
-      <pubDate>Fri, 22 Dec 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:50528/generator-function/</guid>
-      <description>&lt;p&gt;A generator function is a special kind of function that can be paused and resumed, allowing it to yield multiple values over time. Unlike regular functions that execute from start to finish, generator functions return an iterator object that can be used to manually control the function&amp;rsquo;s execution.&lt;/p&gt;&#xA;&lt;h3 id=&#34;syntax&#34;&gt;Syntax:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Defined using the function* syntax (the asterisk * after function).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Uses the yield keyword to pause the function and return a value.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Wed, 22 Nov 2023 16:55:24 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/ux-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>5 CSS Tips and Tricks Every Web Developer Should Know</title>
-      <link>http://localhost:50528/css-tips-and-tricks/</link>
+      <link>http://localhost:1313/css-tips-and-tricks/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:50528/css-tips-and-tricks/</guid>
+      <guid>http://localhost:1313/css-tips-and-tricks/</guid>
       <description>&lt;p&gt;Let’s explore some essential CSS tips and tricks that will help you streamline your web design process and build stunning, creative websites.&lt;/p&gt;&#xA;&lt;h2 id=&#34;css-clip-path&#34;&gt;CSS Clip-Path&lt;/h2&gt;&#xA;&lt;p&gt;Clip path allows you to create custom shapes by clipping the visible area of an HTML element. You can think of it as a virtual pair of scissors that allows you to cut and reshape your items. By manipulating this property, you can create various shapes and effects that go beyond the typical rectangles and squares.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Interview on Lama dev blog</title>
-    <link>http://localhost:50528/categories/interview/</link>
-    <description>Recent content in Interview on Lama dev blog</description>
+    <title>Interview on BlogCube blog</title>
+    <link>http://localhost:1313/categories/interview/</link>
+    <description>Recent content in Interview on BlogCube blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Nov 2023 16:55:24 +0100</lastBuildDate>
-    <atom:link href="http://localhost:50528/categories/interview/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Dec 2023 16:55:24 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/interview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is a Generator Function in JavaScript?</title>
+      <link>http://localhost:1313/generator-function/</link>
+      <pubDate>Fri, 22 Dec 2023 16:55:24 +0100</pubDate>
+      <guid>http://localhost:1313/generator-function/</guid>
+      <description>&lt;p&gt;A generator function is a special kind of function that can be paused and resumed, allowing it to yield multiple values over time. Unlike regular functions that execute from start to finish, generator functions return an iterator object that can be used to manually control the function&amp;rsquo;s execution.&lt;/p&gt;&#xA;&lt;h3 id=&#34;syntax&#34;&gt;Syntax:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Defined using the function* syntax (the asterisk * after function).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Uses the yield keyword to pause the function and return a value.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>What is the Currying function in js</title>
-      <link>http://localhost:50528/currying-function/</link>
+      <link>http://localhost:1313/currying-function/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>http://localhost:50528/currying-function/</guid>
+      <guid>http://localhost:1313/currying-function/</guid>
       <description>&lt;p&gt;Have you noticed how from all of the classic Array methods in JavaScript to iterate and perform some transformations over that data such as map and forEach the one that never really gets understood is reduce?&lt;/p&gt;&#xA;&lt;p&gt;Well, the same happens with Currying in Functional Programming. Everyone is all in for higher-order functions, or even pure functions with no side effects, but the minute you start talking about currying, their faces go like this:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is the Prototype inheritance in JavaScript</title>
+      <link>http://localhost:1313/prototype-inheritence/</link>
+      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
+      <guid>http://localhost:1313/prototype-inheritence/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;In JavaScript, Prototype Inheritance allows objects to inherit properties and methods from another object. Every JavaScript object has an internal property called [[Prototype]] that points to another object or null.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;When you try to access a property or method on an object, JavaScript first looks for it on the object itself. If not found, it checks the object&amp;rsquo;s prototype, and this process continues up the prototype chain until the property is found or the chain ends.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
