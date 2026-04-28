@@ -50,7 +50,8 @@ Here, the first argument is a function containing the side effect logic, and the
          setData(result);
        }
        fetchData();
-     }, []); // Empty dependency array ensures this runs once
+     }, []); 
+     // Empty dependency array ensures this runs once
 
      return (
        <div>
