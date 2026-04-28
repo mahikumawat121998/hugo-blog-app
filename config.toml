@@ -14,6 +14,7 @@ title = 'Blog Cube'
   author = "authors"
 
 
+
 [markup]
   [markup.highlight]
     noClasses = false  # Use CSS classes for styling
