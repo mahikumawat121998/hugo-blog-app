@@ -419,7 +419,8 @@
 <p>Let’s see how to use it to manage sessions, leveraging the latest features like the App router, React server components, and server actions. If you want to watch the full tutorial (more detailed version of this post), please check out my youtube video.</p>
 <p>Firstly, we need to install the library.</p>
 <blockquote>
-<p>npm install iron-session</p></blockquote>
+<p>npm install iron-session</p>
+</blockquote>
 <p>Before diving into component creation, let’s handle the session options and server actions. We’ll require three key actions to effectively manage sessions: a login action to create a signed session, a logout action to terminate the session, and a getSession action to retrieve the user session for validation purposes.</p>
 <p>Let’s create a file called lib.ts and define the session data type and cookie options.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="nt">import</span> <span class="p">{</span><span class="err">SessionOptions</span><span class="p">}</span> <span class="nt">from</span> <span class="s2">&#34;iron-session&#34;</span><span class="o">;</span>
@@ -449,7 +450,8 @@
 <p>Then I created the session options. This will encrypt the session with the given secret key.</p>
 <p>You can generate a secret key using this code on your terminal.</p>
 <blockquote>
-<p>openssl rand -base64 32</p></blockquote>
+<p>openssl rand -base64 32</p>
+</blockquote>
 <p>After that we are ready to create out first action. Create a file called actions.ts and add the following code.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"> <span class="s2">&#34;use server&#34;</span>
 </span></span><span class="line"><span class="cl">

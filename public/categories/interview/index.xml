@@ -27,7 +27,7 @@
       <link>http://localhost:1313/prototype-inheritence/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
       <guid>http://localhost:1313/prototype-inheritence/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;In JavaScript, Prototype Inheritance allows objects to inherit properties and methods from another object. Every JavaScript object has an internal property called [[Prototype]] that points to another object or null.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;When you try to access a property or method on an object, JavaScript first looks for it on the object itself. If not found, it checks the object&amp;rsquo;s prototype, and this process continues up the prototype chain until the property is found or the chain ends.&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;In JavaScript, Prototype Inheritance allows objects to inherit properties and methods from another object. Every JavaScript object has an internal property called [[Prototype]] that points to another object or null.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;When you try to access a property or method on an object, JavaScript first looks for it on the object itself. If not found, it checks the object&amp;rsquo;s prototype, and this process continues up the prototype chain until the property is found or the chain ends.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

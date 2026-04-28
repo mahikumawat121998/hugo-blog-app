@@ -27,7 +27,7 @@
       <link>http://localhost:1313/temporal-dead-zone/</link>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/temporal-dead-zone/</guid>
-      <description>&lt;p&gt;Let’s start with a silly programming joke, shall we ? 😜&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;How many programmers does it take to change a light bulb?&#xA;None. It&amp;rsquo;s a hardware problem.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;JavaScript is a versatile language, but it also comes with some intricacies that can catch even seasoned developers off guard. One such concept is the Temporal Dead Zone (TDZ). In this article, we will explore TDZ, why it exists, and how it impacts your code with real-world examples.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Let’s start with a silly programming joke, shall we ? 😜&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;How many programmers does it take to change a light bulb?&#xA;None. It&amp;rsquo;s a hardware problem.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;JavaScript is a versatile language, but it also comes with some intricacies that can catch even seasoned developers off guard. One such concept is the Temporal Dead Zone (TDZ). In this article, we will explore TDZ, why it exists, and how it impacts your code with real-world examples.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

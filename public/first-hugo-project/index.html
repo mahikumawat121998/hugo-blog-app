@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content=This&#32;blog&#32;about&#32;to&#32;run&#32;your&#32;first&#32;hugo&#32;project.>
+  <meta name="description" content=The&#32;fastest&#32;blog>
   <link rel="stylesheet" href="/styles/style.css">
   <link rel="stylesheet" href="/styles/fillter.css">
   <link rel="stylesheet" href="/styles/syntax.css">
@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-  <title>How to run your first hugo project </title>
+  <title></title>
 </head>
 <body>
   <div class="container">
@@ -92,49 +92,32 @@
 <div class="single">
   <div class="singleHead">
     <div class="singleHeadTexts">
-      <h1 class="singleHeadTitle">How to run your first hugo project </h1>
-      <p class="singleHeadDesc">This blog about to run your first hugo project.</p>
+      <h1 class="singleHeadTitle"></h1>
+      <p class="singleHeadDesc"></p>
       <div class="singleHeadDetail">
         <img
-          src="/images/favicon.png"
+          src=""
           loading="lazy"
           alt=""
           class="singleAvatar"
         />
         <span
           >
-          <a href="http://localhost:1313/authors/mk-kumawat/">MK Kumawat</a>
-          
         </span>
         <div>
           <time class="time-format"
-            >Nov 22, 2023</time
+            >Jan 1, 0001</time
           >
         </div>
         <div style="display: flex; gap: 5px">
-            
-          <div class="slide-button" style="background-color: #958153">
-            <a href="http://localhost:1313/categories/general/" class="slide-content">general </a>
-          </div>
-
-            
-          <div class="slide-button" style="background-color: #e155e1">
-            <a href="http://localhost:1313/categories/life/" class="slide-content">life </a>
-          </div>
-
-            
-          <div class="slide-button" style="background-color: #709946">
-            <a href="http://localhost:1313/categories/coding/" class="slide-content">coding </a>
-          </div>
-
           
         </div>
       </div>
       <time class="time-format1"
-        >Nov 22, 2023</time
+        >Jan 1, 0001</time
       >
     </div>
-    <img src="https://images.prismic.io/staticmania/7d97cb1e-0b18-46fa-8aca-2e72b4b82ece_Deploy-your-Hugo-website-on-Github-pages.jpg?auto=compress,format&amp;rect=0,3,1200,627&amp;w=1200&amp;h=627" alt="How to run your first hugo project " class="singleHeadImg" />
+    <img src="" alt="" class="singleHeadImg" />
   </div>
   <div class="singleBottom">
     <div class="contentSide">
@@ -253,7 +236,7 @@
               </g>
             </svg>
           </a>
-          <a href="#" onclick="shareLink('http:\/\/localhost:1313\/first-hugo-project\/', 'How to run your first hugo project ')">
+          <a href="#" onclick="shareLink('http:\/\/localhost:1313\/first-hugo-project\/', '')">
             <svg
               width="24"
               height="24"
@@ -412,50 +395,7 @@
         </a>
       </div>
     </div>
-    <div class="singleContent"><p>To create a blog post in Hugo that includes code snippets with proper syntax highlighting and descriptions, follow these steps:</p>
-<p><strong>1. Create a New Blog Post:</strong></p>
-<p>Use Hugo&rsquo;s command-line tool to generate a new post. Open your terminal and run:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo new posts/your-post-title.md
-</span></span></code></pre></div><p>Replace <code>your-post-title.md</code> with your desired filename. This command creates a new Markdown file in the <code>content/posts</code> directory.</p>
-<p><strong>2. Add Content to the Post:</strong></p>
-<p>Open the newly created Markdown file in your preferred text editor. Add your content, including code snippets. Hugo offers multiple methods to include code snippets with syntax highlighting:</p>
-<p><strong>a. Using Markdown Code Fences:</strong></p>
-<p>Hugo supports syntax highlighting using code fences. Specify the language after the opening backticks for proper highlighting.</p>
-<p>This method provides basic syntax highlighting based on the specified language.</p>
-<p><strong>b. Using Hugo&rsquo;s <code>highlight</code> Shortcode:</strong></p>
-<p>Hugo&rsquo;s built-in <code>highlight</code> shortcode offers advanced syntax highlighting features, such as line numbers and line highlighting.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="text-highlight-glow">
-def hello_world():
-```
-
-    ```print("Hello, World!")
-
-</span>
-
-</span></span></code></pre></div><p>In this example, line numbers are displayed in a table format, and the second line is highlighted.</p>
-<p><strong>c. Embedding GitHub Gists:</strong></p>
-<p>To embed code snippets stored in GitHub Gists, use Hugo&rsquo;s <code>gist</code> shortcode. First, create a Gist on GitHub and copy its ID. Then, embed it in your post as follows:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><script src="https://gist.github.com/gist_id/.js"></script>
-
-</span></span></code></pre></div><p>Replace <code>gist_id</code> with the actual ID of your Gist. This method allows you to maintain code snippets externally and embed them in multiple posts.</p>
-<p><strong>3. Configure Syntax Highlighting:</strong></p>
-<p>Ensure that Hugo&rsquo;s syntax highlighting is enabled and configured in your <code>config.toml</code> file. Add or update the <code>[markup]</code> section as follows:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">highlight</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">noClasses</span> <span class="p">=</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">style</span> <span class="p">=</span> <span class="s2">&#34;monokai&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">lineNos</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span></code></pre></div><p>This configuration enables syntax highlighting with the &ldquo;monokai&rdquo; style and displays line numbers.</p>
-<p><strong>4. Add Descriptions and Explanations:</strong></p>
-<p>Provide clear descriptions and explanations before or after each code snippet to help readers understand the context and functionality of the code.</p>
-<p><strong>5. Test and Preview Your Post:</strong></p>
-<p>Run the Hugo server to preview your post locally:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server
-</span></span></code></pre></div><p>Visit <code>http://localhost:1313</code> in your browser to ensure that the code snippets render correctly with syntax highlighting and that the content appears as intended.</p>
-<p><strong>6. Deploy Your Site:</strong></p>
-<p>After verifying your post, deploy your Hugo site using your preferred deployment method, such as GitHub Pages or Netlify.</p>
-<p>By following these steps, you can create informative blog posts in Hugo that include well-formatted code snippets and descriptions, enhancing the readability and usefulness of your content.</p>
-</div>
+    <div class="singleContent"></div>
     <div class="singleRightBar"><div class="rightBar">
   <img
     src="/images/ads.webp"

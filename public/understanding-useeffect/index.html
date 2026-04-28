@@ -423,10 +423,10 @@
 <p>The basic syntax of <code>useEffect</code> is:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-jsx" data-lang="jsx"><span class="line"><span class="cl"><span class="nx">useEffect</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="c1">// Side effect logic here
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// Cleanup logic here (optional)
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">};</span>
+</span></span></span><span class="line"><span class="cl">  <span class="p">};</span>
 </span></span><span class="line"><span class="cl"><span class="p">},</span> <span class="p">[</span><span class="nx">dependencies</span><span class="p">]);</span>
 </span></span></code></pre></div><p>Here, the first argument is a function containing the side effect logic, and the second argument is an optional array of dependencies that determine when the effect should re-run. If the dependencies change, the effect is executed again.</p>
 <p><strong>Common Use Cases for <code>useEffect</code></strong></p>
@@ -445,7 +445,7 @@
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">fetchData</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">  <span class="p">},</span> <span class="p">[]);</span> <span class="c1">// Empty dependency array ensures this runs once
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="p">(</span>
 </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">{</span><span class="nx">data</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">item</span> <span class="p">=&gt;</span> <span class="p">(</span>
@@ -470,11 +470,11 @@
 </span></span><span class="line"><span class="cl">    <span class="nb">window</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;resize&#39;</span><span class="p">,</span> <span class="nx">handleResize</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="c1">// Cleanup function
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">return</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">      <span class="nb">window</span><span class="p">.</span><span class="nx">removeEventListener</span><span class="p">(</span><span class="s1">&#39;resize&#39;</span><span class="p">,</span> <span class="nx">handleResize</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="p">};</span>
 </span></span><span class="line"><span class="cl">  <span class="p">},</span> <span class="p">[]);</span> <span class="c1">// Empty dependency array ensures this runs once
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span><span class="nx">Window</span> <span class="nx">width</span><span class="o">:</span> <span class="p">{</span><span class="nx">width</span><span class="p">}&lt;/</span><span class="nt">div</span><span class="p">&gt;;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>Here, an event listener is added to track window resize events, and the cleanup function removes the listener when the component unmounts.</p>
@@ -492,7 +492,7 @@
 </span></span><span class="line"><span class="cl">      <span class="k">return</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="nx">clearTimeout</span><span class="p">(</span><span class="nx">timer</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl">  <span class="p">},</span> <span class="p">[</span><span class="nx">items</span><span class="p">]);</span> <span class="c1">// Runs when &#39;items&#39; changes
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="p">(</span>
 </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">className</span><span class="o">=</span><span class="p">{</span><span class="nx">isAnimating</span> <span class="o">?</span> <span class="s1">&#39;cart animate&#39;</span> <span class="o">:</span> <span class="s1">&#39;cart&#39;</span><span class="p">}&gt;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">{</span><span class="cm">/* Render cart items */</span><span class="p">}</span>

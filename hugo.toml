@@ -1,6 +1,7 @@
 baseURL = 'https://blogcube.netlify.app/'
 languageCode = 'en-us'
 title = 'BlogCube blog'
+theme = "ananke"
 
 [pagination]
   pagerSize = 5

@@ -415,7 +415,8 @@
     <div class="singleContent"><p>Let’s start with a silly programming joke, shall we ? 😜</p>
 <blockquote>
 <p>How many programmers does it take to change a light bulb?
-None. It&rsquo;s a hardware problem.</p></blockquote>
+None. It&rsquo;s a hardware problem.</p>
+</blockquote>
 <p>JavaScript is a versatile language, but it also comes with some intricacies that can catch even seasoned developers off guard. One such concept is the Temporal Dead Zone (TDZ). In this article, we will explore TDZ, why it exists, and how it impacts your code with real-world examples.</p>
 <h3 id="what-is-the-temporal-dead-zone">What is the Temporal Dead Zone?</h3>
 <p>The Temporal Dead Zone is a behaviour in JavaScript that occurs when declaring variables using let and const. It refers to the period between entering the scope and the actual declaration of the variable. During this period, the variable cannot be accessed and will throw a ReferenceError if you try to use it.</p>
@@ -423,15 +424,15 @@ None. It&rsquo;s a hardware problem.</p></blockquote>
 <p>The TDZ is designed to help catch errors in your code by throwing an error when you try to access a variable before it’s declared. JavaScript aims to prevent bugs that can occur from using uninitialised variables.</p>
 <h3 id="code-example">Code Example</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myVar</span><span class="p">);</span> <span class="c1">// undefined
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">var</span> <span class="nx">myVar</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">myVar</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myVar</span><span class="p">);</span> <span class="c1">// 5
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myLet</span><span class="p">);</span> <span class="c1">// ReferenceError: Cannot access &#39;myLet&#39; before initialization
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">myLet</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">myLet</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myLet</span><span class="p">);</span> <span class="c1">// 10
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myConst</span><span class="p">);</span> <span class="c1">// ReferenceError: Cannot access &#39;myConst&#39; before initialization
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">const</span> <span class="nx">myConst</span> <span class="o">=</span> <span class="mi">15</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">myConst</span> <span class="o">=</span> <span class="mi">15</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myConst</span><span class="p">);</span> <span class="c1">// 15
 </span></span></span></code></pre></div><h3 id="explanation">Explanation</h3>
 <ul>

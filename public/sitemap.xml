@@ -71,9 +71,6 @@
     <loc>http://localhost:1313/categories/expressjs/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/first-hugo-project/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/authors/jane-doe/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
@@ -109,5 +106,7 @@
   </url><url>
     <loc>http://localhost:1313/prototype-inheritence/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/first-hugo-project/</loc>
   </url>
 </urlset>
