@@ -7,7 +7,7 @@ image = "https://blog.lama.dev/images/nextjs-vs-express-big.png"
 imageBig = "https://blog.lama.dev/images/nextjs-vs-express-big.png"
 categories = ["expressjs", "nextjs", "react", "backend"]
 authors = ["Mk Kumawat"]
-avatar = "/images/mk1.png"
+avatar = "/images/1b.webp"
 +++
 
 
