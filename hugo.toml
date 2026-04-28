@@ -1,4 +1,4 @@
-baseURL = 'http://blog-cube-website.s3-website.ap-south-1.amazonaws.com/'
+baseURL = 'https://d1jui6l3mgx3u1.cloudfront.net/'
 languageCode = 'en-us'
 title = 'BlogCube blog'
 theme = "ananke"
