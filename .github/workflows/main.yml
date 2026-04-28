@@ -22,7 +22,7 @@ jobs:
         run: hugo
 
       - name: Deploy to S3
-        run: aws s3 sync public/ s3://your-bucket-name
+        run: aws s3 sync public/ s3://blog-cube-website
         env:
           AWS_ACCESS_KEY_ID: AKIAUDA2QLPBTWAFJYJ2
           AWS_SECRET_ACCESS_KEY: oqqfbn1uyE26L3KfraeBkuux2oKwpsb2+OmUivHA
