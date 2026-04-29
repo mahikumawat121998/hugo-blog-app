@@ -26,6 +26,7 @@ jobs:
         uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --delete
+          source_dir: public
         env:
           AWS_S3_BUCKET: blog-cube-website
           AWS_REGION: ap-south-1
