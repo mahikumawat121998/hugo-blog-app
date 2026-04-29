@@ -22,11 +22,7 @@ jobs:
       - name: Build site
         run: hugo --minify --baseURL "https://d1jui6l3mgx3u1.cloudfront.net/"
 
-      # ✅ Install AWS CLI (safe step)
-      - name: Install AWS CLI
-        run: sudo apt-get install -y awscli
-
-      # ✅ Correct S3 sync (THIS FIXES YOUR ISSUE)
+      # ✅ AWS CLI already available
       - name: Deploy to S3
         run: aws s3 sync public/ s3://blog-cube-website --delete
         env:
@@ -34,7 +30,6 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ap-south-1
 
-      # ✅ CloudFront cache clear
       - name: Invalidate CloudFront
         run: |
           aws cloudfront create-invalidation \
