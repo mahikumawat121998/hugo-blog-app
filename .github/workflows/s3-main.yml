@@ -22,22 +22,25 @@ jobs:
       - name: Build site
         run: hugo --minify --baseURL "https://d1jui6l3mgx3u1.cloudfront.net/"
 
-      - name: Deploy to S3
-        uses: jakejarvis/s3-sync-action@v0.5.1
-        with:
-          args: --delete
-          source_dir: public
-        env:
-          AWS_S3_BUCKET: blog-cube-website
-          AWS_REGION: ap-south-1
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      # ✅ Install AWS CLI (safe step)
+      - name: Install AWS CLI
+        run: sudo apt-get install -y awscli
 
-      - name: Invalidate CloudFront
-        uses: chetan/invalidate-cloudfront-action@v2
+      # ✅ Correct S3 sync (THIS FIXES YOUR ISSUE)
+      - name: Deploy to S3
+        run: aws s3 sync public/ s3://blog-cube-website --delete
         env:
-          DISTRIBUTION: E2Y0BIW1HTD1EM
-          PATHS: "/*"
-          AWS_REGION: ap-south-1
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ap-south-1
+
+      # ✅ CloudFront cache clear
+      - name: Invalidate CloudFront
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id E2Y0BIW1HTD1EM \
+            --paths "/*"
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ap-south-1
