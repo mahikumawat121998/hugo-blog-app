@@ -29,6 +29,3 @@ theme = "ananke"
 
 [outputs]
   home = ["HTML", "SearchIndex"]
-
-
-  
