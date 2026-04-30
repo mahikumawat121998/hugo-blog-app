@@ -1,4 +1,4 @@
-baseURL = 'https://d1jui6l3mgx3u1.cloudfront.net/'
+baseURL = 'https://blogcube.site/'
 languageCode = 'en-us'
 title = 'BlogCube blog'
 theme = "ananke"
