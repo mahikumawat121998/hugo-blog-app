@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on BlogCube blog</title>
-    <link>http://localhost:1313/categories/security/</link>
+    <link>https://blogcube.site/categories/security/</link>
     <description>Recent content in Security on BlogCube blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Apr 2026 10:00:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blogcube.site/categories/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is AWS Control Tower? — Complete Guide for Multi-Account Governance</title>
-      <link>http://localhost:1313/aws-control-tower/</link>
+      <link>https://blogcube.site/aws-control-tower/</link>
       <pubDate>Thu, 30 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/aws-control-tower/</guid>
+      <guid>https://blogcube.site/aws-control-tower/</guid>
       <description>&lt;h1 id=&#34;what-is-aws-control-tower--complete-guide&#34;&gt;What is AWS Control Tower? — Complete Guide&lt;/h1&gt;&#xA;&lt;p&gt;As organizations grow in AWS, managing multiple accounts becomes complex. You need proper governance, security policies, and standardization across all accounts.&lt;/p&gt;&#xA;&lt;p&gt;That’s where &lt;strong&gt;AWS Control Tower&lt;/strong&gt; comes in.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-aws-control-tower&#34;&gt;What is AWS Control Tower?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;AWS Control Tower&lt;/strong&gt; is a service that helps you &lt;strong&gt;set up and manage a secure, multi-account AWS environment&lt;/strong&gt; based on best practices.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-idea&#34;&gt;Key Idea:&lt;/h3&gt;&#xA;&lt;p&gt;Automate account setup + enforce governance at scale.&lt;/p&gt;</description>
     </item>
   </channel>

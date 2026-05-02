@@ -233,7 +233,7 @@ body.light .page-item.disabled {
 pre {
   padding: 2rem 2rem;
   width: 100%;
-  overflow-x: hidden;
+  overflow-x: scroll;
   margin-bottom: 2rem;
 }
 
@@ -417,20 +417,11 @@ body.light .extra-bold {
   border-radius: 3px;
 }
 
-/* h1{
-  line-height: 40px;
-} */
- /* const */
-
-.singleContent p {
-  margin: 20px 0px;
-}
-
+.singleContent p,
 .singleContent h1,
 .singleContent h2,
 .singleContent h3 {
   margin: 20px 0px;
-  line-height: 40px !important;
 }
 
 .singleContent img {
@@ -885,5 +876,4 @@ body.light .joinText {
 
 .chroma {
   font-size: 17px !important;
-  overflow-x: hidden !important;
 }

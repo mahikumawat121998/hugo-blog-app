@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aws on BlogCube blog</title>
-    <link>http://localhost:1313/categories/aws/</link>
+    <link>https://blogcube.site/categories/aws/</link>
     <description>Recent content in Aws on BlogCube blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Apr 2026 12:00:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/aws/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blogcube.site/categories/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Security Groups vs NACL in AWS: Key Differences Explained with Examples</title>
-      <link>http://localhost:1313/security-group-vs-nacl/</link>
+      <link>https://blogcube.site/security-group-vs-nacl/</link>
       <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/security-group-vs-nacl/</guid>
+      <guid>https://blogcube.site/security-group-vs-nacl/</guid>
       <description>&lt;p&gt;When working with AWS VPC, one of the most common interview questions and real-world challenges is understanding the difference between &lt;strong&gt;Security Groups&lt;/strong&gt; and &lt;strong&gt;Network ACLs (NACLs)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Both are used to control traffic, but they operate at different levels and behave very differently.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h2&gt;&#xA;&lt;p&gt;If you misconfigure these:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You might expose your server to the internet ❌&lt;/li&gt;&#xA;&lt;li&gt;Or accidentally block valid traffic ❌&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Understanding both is critical for &lt;strong&gt;secure cloud architecture&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is NAT Gateway in AWS? How It Works, Use Cases &amp; Best Practices</title>
-      <link>http://localhost:1313/nat-gateway/</link>
+      <link>https://blogcube.site/nat-gateway/</link>
       <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/nat-gateway/</guid>
-      <description>&lt;p&gt;When designing a secure AWS architecture, a common question arises:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How can private servers access the internet without being exposed to it?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This is where the &lt;strong&gt;NAT Gateway&lt;/strong&gt; becomes essential.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h2&gt;&#xA;&lt;p&gt;Without NAT Gateway:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Private instances cannot access internet ❌&lt;/li&gt;&#xA;&lt;li&gt;Cannot install updates or packages ❌&lt;/li&gt;&#xA;&lt;li&gt;Cannot call external APIs ❌&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;With NAT Gateway:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Secure outbound internet access ✅&lt;/li&gt;&#xA;&lt;li&gt;No inbound exposure ✅&lt;/li&gt;&#xA;&lt;li&gt;Better security architecture ✅&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-a-nat-gateway&#34;&gt;What is a NAT Gateway?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;NAT Gateway (Network Address Translation Gateway)&lt;/strong&gt; is a service that allows instances in a &lt;strong&gt;private subnet&lt;/strong&gt; to connect to the internet &lt;strong&gt;without allowing inbound connections from the internet&lt;/strong&gt;.&lt;/p&gt;</description>
+      <guid>https://blogcube.site/nat-gateway/</guid>
+      <description>&lt;p&gt;When designing a secure AWS architecture, a common question arises:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;How can private servers access the internet without being exposed to it?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This is where the &lt;strong&gt;NAT Gateway&lt;/strong&gt; becomes essential.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-this-matters&#34;&gt;Why This Matters&lt;/h2&gt;&#xA;&lt;p&gt;Without NAT Gateway:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Private instances cannot access internet ❌&lt;/li&gt;&#xA;&lt;li&gt;Cannot install updates or packages ❌&lt;/li&gt;&#xA;&lt;li&gt;Cannot call external APIs ❌&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;With NAT Gateway:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Secure outbound internet access ✅&lt;/li&gt;&#xA;&lt;li&gt;No inbound exposure ✅&lt;/li&gt;&#xA;&lt;li&gt;Better security architecture ✅&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-is-a-nat-gateway&#34;&gt;What is a NAT Gateway?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;NAT Gateway (Network Address Translation Gateway)&lt;/strong&gt; is a service that allows instances in a &lt;strong&gt;private subnet&lt;/strong&gt; to connect to the internet &lt;strong&gt;without allowing inbound connections from the internet&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AWS Direct Connect vs Site-to-Site VPN — Complete Networking Guide</title>
-      <link>http://localhost:1313/aws-direct-connect-vs-site-to-site-vpn/</link>
+      <link>https://blogcube.site/aws-direct-connect-vs-site-to-site-vpn/</link>
       <pubDate>Thu, 30 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/aws-direct-connect-vs-site-to-site-vpn/</guid>
+      <guid>https://blogcube.site/aws-direct-connect-vs-site-to-site-vpn/</guid>
       <description>&lt;h1 id=&#34;aws-direct-connect-vs-site-to-site-vpn--complete-guide&#34;&gt;AWS Direct Connect vs Site-to-Site VPN — Complete Guide&lt;/h1&gt;&#xA;&lt;p&gt;When connecting your on-premise data center to AWS, two major options are available:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Site-to-Site VPN&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;AWS Direct Connect&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Both enable hybrid cloud connectivity, but they differ significantly in performance, cost, and reliability.&lt;/p&gt;&#xA;&lt;p&gt;Let’s break them down clearly.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-site-to-site-vpn&#34;&gt;What is Site-to-Site VPN?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Site-to-Site VPN&lt;/strong&gt; creates a secure, encrypted connection between your on-premise network and your AWS VPC over the public internet.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CIDR vs Private IP vs Public IP Address — Complete Guide</title>
-      <link>http://localhost:1313/cider-vs-private-ip-public-ip/</link>
+      <link>https://blogcube.site/cider-vs-private-ip-public-ip/</link>
       <pubDate>Thu, 30 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/cider-vs-private-ip-public-ip/</guid>
-      <description>&lt;h1 id=&#34;cidr-vs-private-ip-vs-public-ip-address--complete-guide&#34;&gt;CIDR vs Private IP vs Public IP Address — Complete Guide&lt;/h1&gt;&#xA;&lt;p&gt;When working with cloud platforms like AWS, Docker, or any distributed system, understanding networking basics is non-negotiable. Three core concepts you’ll encounter everywhere are &lt;strong&gt;CIDR&lt;/strong&gt;, &lt;strong&gt;Private IP&lt;/strong&gt;, and &lt;strong&gt;Public IP Address&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Let’s break them down in a simple and practical way.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-a-public-ip-address&#34;&gt;What is a Public IP Address?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Public IP Address&lt;/strong&gt; is an IP that is exposed to the internet. It is globally unique and assigned by an ISP.&lt;/p&gt;</description>
+      <guid>https://blogcube.site/cider-vs-private-ip-public-ip/</guid>
+      <description>&lt;h1 id=&#34;cidr-vs-private-ip-vs-public-ip-address--complete-guide&#34;&gt;CIDR vs Private IP vs Public IP Address — Complete Guide&lt;/h1&gt;&#xA;&lt;p&gt;When working with cloud platforms like AWS, Docker, or any distributed system, understanding networking basics is non-negotiable. Three core concepts you’ll encounter everywhere are &lt;strong&gt;CIDR&lt;/strong&gt;, &lt;strong&gt;Private IP&lt;/strong&gt;, and &lt;strong&gt;Public IP Address&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Let’s break them down in a simple and practical way.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-public-ip-address&#34;&gt;What is a Public IP Address?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Public IP Address&lt;/strong&gt; is an IP that is exposed to the internet. It is globally unique and assigned by an ISP.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding AWS VPC: Architecture, Components &amp; Best Practices</title>
-      <link>http://localhost:1313/how-to-use-vpc/</link>
+      <link>https://blogcube.site/how-to-use-vpc/</link>
       <pubDate>Thu, 30 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/how-to-use-vpc/</guid>
+      <guid>https://blogcube.site/how-to-use-vpc/</guid>
       <description>&lt;p&gt;Amazon VPC (Virtual Private Cloud) is one of the most fundamental services in AWS. It allows developers to create a logically isolated network where they can deploy and manage resources securely. Whether you&amp;rsquo;re building a small application or a large-scale distributed system, understanding VPC is essential.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Understanding VPC&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A VPC is essentially your own private network inside AWS. It gives you full control over:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;IP address ranges (CIDR blocks)&lt;/li&gt;&#xA;&lt;li&gt;Subnets (public and private)&lt;/li&gt;&#xA;&lt;li&gt;Routing rules&lt;/li&gt;&#xA;&lt;li&gt;Security configurations&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Think of it as:&lt;/p&gt;</description>
     </item>
     <item>
       <title>VPC Peering vs Transit Gateway — Complete AWS Networking Guide</title>
-      <link>http://localhost:1313/vpc-peering-transit-gateway/</link>
+      <link>https://blogcube.site/vpc-peering-transit-gateway/</link>
       <pubDate>Thu, 30 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/vpc-peering-transit-gateway/</guid>
+      <guid>https://blogcube.site/vpc-peering-transit-gateway/</guid>
       <description>&lt;h1 id=&#34;vpc-peering-vs-transit-gateway--complete-guide&#34;&gt;VPC Peering vs Transit Gateway — Complete Guide&lt;/h1&gt;&#xA;&lt;p&gt;When designing scalable AWS architectures, connecting multiple VPCs is a common requirement. Two major approaches are &lt;strong&gt;VPC Peering&lt;/strong&gt; and &lt;strong&gt;Transit Gateway&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Both solve the same problem — &lt;strong&gt;VPC-to-VPC communication&lt;/strong&gt; — but in very different ways.&lt;/p&gt;&#xA;&lt;p&gt;Let’s break it down clearly.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-vpc-peering&#34;&gt;What is VPC Peering?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;VPC Peering&lt;/strong&gt; is a direct one-to-one connection between two VPCs that allows them to communicate privately using internal IP addresses.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is a Bastion Host? — Complete Guide for Secure Access in AWS</title>
-      <link>http://localhost:1313/bastion-host/</link>
+      <link>https://blogcube.site/bastion-host/</link>
       <pubDate>Thu, 30 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/bastion-host/</guid>
+      <guid>https://blogcube.site/bastion-host/</guid>
       <description>&lt;h1 id=&#34;what-is-a-bastion-host--complete-guide&#34;&gt;What is a Bastion Host? — Complete Guide&lt;/h1&gt;&#xA;&lt;p&gt;When working with secure cloud architectures, especially in AWS, one of the most important concepts is the &lt;strong&gt;Bastion Host&lt;/strong&gt;. It acts as a secure gateway to access your private infrastructure.&lt;/p&gt;&#xA;&lt;p&gt;Let’s understand it step by step.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-a-bastion-host&#34;&gt;What is a Bastion Host?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;Bastion Host&lt;/strong&gt; (also called a &lt;strong&gt;Jump Server&lt;/strong&gt;) is a special-purpose server that is placed in a public subnet and is used to securely access servers in a private subnet.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is a VPC Endpoint? — Complete Guide for Private AWS Access</title>
-      <link>http://localhost:1313/vpc-endpoint/</link>
+      <link>https://blogcube.site/vpc-endpoint/</link>
       <pubDate>Thu, 30 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/vpc-endpoint/</guid>
+      <guid>https://blogcube.site/vpc-endpoint/</guid>
       <description>&lt;h1 id=&#34;what-is-a-vpc-endpoint--complete-guide&#34;&gt;What is a VPC Endpoint? — Complete Guide&lt;/h1&gt;&#xA;&lt;p&gt;When building secure cloud architectures in AWS, one common requirement is accessing AWS services like S3 or DynamoDB &lt;strong&gt;without exposing your traffic to the public internet&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;That’s exactly what a &lt;strong&gt;VPC Endpoint&lt;/strong&gt; solves.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-a-vpc-endpoint&#34;&gt;What is a VPC Endpoint?&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;VPC Endpoint&lt;/strong&gt; allows you to privately connect your VPC to AWS services &lt;strong&gt;without using an Internet Gateway, NAT Gateway, or public IP&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-idea&#34;&gt;Key Idea:&lt;/h3&gt;&#xA;&lt;p&gt;Keep your traffic &lt;strong&gt;inside AWS network&lt;/strong&gt; — secure and private.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is AWS Control Tower? — Complete Guide for Multi-Account Governance</title>
-      <link>http://localhost:1313/aws-control-tower/</link>
+      <link>https://blogcube.site/aws-control-tower/</link>
       <pubDate>Thu, 30 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/aws-control-tower/</guid>
+      <guid>https://blogcube.site/aws-control-tower/</guid>
       <description>&lt;h1 id=&#34;what-is-aws-control-tower--complete-guide&#34;&gt;What is AWS Control Tower? — Complete Guide&lt;/h1&gt;&#xA;&lt;p&gt;As organizations grow in AWS, managing multiple accounts becomes complex. You need proper governance, security policies, and standardization across all accounts.&lt;/p&gt;&#xA;&lt;p&gt;That’s where &lt;strong&gt;AWS Control Tower&lt;/strong&gt; comes in.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-aws-control-tower&#34;&gt;What is AWS Control Tower?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;AWS Control Tower&lt;/strong&gt; is a service that helps you &lt;strong&gt;set up and manage a secure, multi-account AWS environment&lt;/strong&gt; based on best practices.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-idea&#34;&gt;Key Idea:&lt;/h3&gt;&#xA;&lt;p&gt;Automate account setup + enforce governance at scale.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is VPC Peering? — Complete Guide for AWS Networking</title>
-      <link>http://localhost:1313/vpc-peering/</link>
+      <link>https://blogcube.site/vpc-peering/</link>
       <pubDate>Thu, 30 Apr 2026 10:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/vpc-peering/</guid>
+      <guid>https://blogcube.site/vpc-peering/</guid>
       <description>&lt;h1 id=&#34;what-is-vpc-peering--complete-guide&#34;&gt;What is VPC Peering? — Complete Guide&lt;/h1&gt;&#xA;&lt;p&gt;When building scalable cloud systems in AWS, you often end up with multiple VPCs. But how do these VPCs communicate securely with each other?&lt;/p&gt;&#xA;&lt;p&gt;That’s where &lt;strong&gt;VPC Peering&lt;/strong&gt; comes in.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-vpc-peering&#34;&gt;What is VPC Peering?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;VPC Peering&lt;/strong&gt; is a networking connection between two VPCs that allows them to communicate with each other privately using their private IP addresses.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-idea&#34;&gt;Key Idea:&lt;/h3&gt;&#xA;&lt;p&gt;It creates a &lt;strong&gt;direct private connection between two VPCs&lt;/strong&gt; without using the public internet.&lt;/p&gt;</description>
     </item>
   </channel>
