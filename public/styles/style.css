@@ -421,12 +421,15 @@ body.light .extra-bold {
   line-height: 40px;
 } */
 
-.singleContent p,
+.singleContent p {
+  margin: 20px 0px;
+}
+
 .singleContent h1,
 .singleContent h2,
 .singleContent h3 {
   margin: 20px 0px;
-  line-height: normal;
+  line-height: 40px !important;
 }
 
 .singleContent img {
