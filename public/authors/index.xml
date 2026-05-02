@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on BlogCube blog</title>
-    <link>https://blogcube.site/authors/</link>
+    <link>http://localhost:1313/authors/</link>
     <description>Recent content in Authors on BlogCube blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blogcube.site/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Apr 2026 12:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MK Dev</title>
+      <link>http://localhost:1313/authors/mk-dev/</link>
+      <pubDate>Thu, 30 Apr 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/authors/mk-dev/</guid>
+      <description></description>
+    </item>
     <item>
       <title>MK Kumawat</title>
-      <link>https://blogcube.site/authors/mk-kumawat/</link>
+      <link>http://localhost:1313/authors/mk-kumawat/</link>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://blogcube.site/authors/mk-kumawat/</guid>
+      <guid>http://localhost:1313/authors/mk-kumawat/</guid>
       <description></description>
     </item>
     <item>
       <title>Jane Doe</title>
-      <link>https://blogcube.site/authors/jane-doe/</link>
+      <link>http://localhost:1313/authors/jane-doe/</link>
       <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://blogcube.site/authors/jane-doe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MK Dev</title>
-      <link>https://blogcube.site/authors/mk-dev/</link>
-      <pubDate>Wed, 22 Nov 2023 16:55:24 +0100</pubDate>
-      <guid>https://blogcube.site/authors/mk-dev/</guid>
+      <guid>http://localhost:1313/authors/jane-doe/</guid>
       <description></description>
     </item>
   </channel>

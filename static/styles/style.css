@@ -73,6 +73,7 @@ a {
 .searchButton {
   display: flex;
   align-items: center;
+  /* flex-direction: column; */
   gap: 10px;
   background-color: var(--bgSoft);
   color: var(--textSoft);
@@ -183,6 +184,9 @@ body.light .light .ball {
 
 .listItemCategory {
   padding: 5px;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
   border-radius: 5px;
   background-color: var(--textSoft);
   color: var(--bgSoft);
@@ -449,6 +453,7 @@ body.light .extra-bold {
 }
 
 .gradient-border-button1 {
+  display: flex;
   position: relative;
   padding: 4px 9px;
   /* background: #1e293b; */
@@ -609,6 +614,7 @@ body.light .joinText {
   gap: 0.8rem;
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 .slide-button::before {
@@ -764,15 +770,33 @@ body.light .joinText {
     font-size: 20px;
   }
 }
+#results li {
+  list-style: none;
+  padding: 10px;
+  margin: 8px 0;
+  background: #f5f5f5;
+  border-radius: 8px;
+  transition: 0.3s;
+}
 
+#results li:hover {
+  background: #e0e0e0;
+}
+
+#results li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+ 
 #searchInput {
   width: 100%;
   padding: 10px;
   font-size: 16px;
   margin-bottom: 10px;
-}
+} 
 
-#searchResults li {
+ #searchResults li {
   list-style: none;
   margin: 5px 0;
 }
@@ -784,7 +808,7 @@ body.light .joinText {
 
 #searchResults li a:hover {
   text-decoration: underline;
-}
+} 
 
 .search-container {
   position: relative;
@@ -851,5 +875,5 @@ body.light .joinText {
 } */
 
 .chroma {
-  font-size: 17px!important;
+  font-size: 17px !important;
 }

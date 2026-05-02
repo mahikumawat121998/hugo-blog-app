@@ -3,11 +3,11 @@ title = 'Next.js vs Express: Which one is Better for a Backend Server?'
 date = 2023-11-22T16:55:24+01:00
 draft = false
 description = "Should you use Next.js or Express Server for a backend API? Which one is faster and more secure? Let's compare the strengths and weaknesses of each technology."
-image = "https://blog.lama.dev/images/nextjs-vs-express-big.png"
+image = "/images/express-vs-nestjspictuer.png"
 imageBig = "https://blog.lama.dev/images/nextjs-vs-express-big.png"
 categories = ["expressjs", "nextjs", "react", "backend"]
 authors = ["Mk Kumawat"]
-avatar = "/images/1b.webp"
+avatar = "/images/favicon1.png"
 +++
 
 

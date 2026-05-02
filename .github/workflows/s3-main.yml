@@ -20,7 +20,7 @@ jobs:
           extended: true
 
       - name: Build site
-        run: hugo --minify --baseURL "https://blogcube.site"
+        run: hugo --minify --baseURL "https://blogcube.site/"
 
       # ✅ AWS CLI already available
       - name: Deploy to S3

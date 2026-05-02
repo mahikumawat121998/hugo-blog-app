@@ -2,111 +2,154 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blogcube.site/categories/authentication/</loc>
+    <loc>http://localhost:1313/authors/</loc>
+    <lastmod>2026-04-30T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/aws/</loc>
+    <lastmod>2026-04-30T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-30T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-04-30T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/cloud/</loc>
+    <lastmod>2026-04-30T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/devops/</loc>
+    <lastmod>2026-04-30T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/mk-dev/</loc>
+    <lastmod>2026-04-30T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/networking/</loc>
+    <lastmod>2026-04-30T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/security-group-vs-nacl/</loc>
+    <lastmod>2026-04-30T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/nat-gateway/</loc>
+    <lastmod>2026-04-30T12:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/aws-direct-connect-vs-site-to-site-vpn/</loc>
+    <lastmod>2026-04-30T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/cider-vs-private-ip-public-ip/</loc>
+    <lastmod>2026-04-30T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/security/</loc>
+    <lastmod>2026-04-30T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/how-to-use-vpc/</loc>
+    <lastmod>2026-04-30T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/vpc-peering-transit-gateway/</loc>
+    <lastmod>2026-04-30T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bastion-host/</loc>
+    <lastmod>2026-04-30T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/vpc-endpoint/</loc>
+    <lastmod>2026-04-30T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/aws-control-tower/</loc>
+    <lastmod>2026-04-30T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/vpc-peering/</loc>
+    <lastmod>2026-04-30T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/authentication/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/authentication-nextjs-prisma/</loc>
+    <loc>http://localhost:1313/authentication-nextjs-prisma/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/authors/</loc>
+    <loc>http://localhost:1313/categories/coding/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/</loc>
+    <loc>http://localhost:1313/express-js-vs-nest-js/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/</loc>
+    <loc>http://localhost:1313/categories/general/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/coding/</loc>
+    <loc>http://localhost:1313/categories/interview-question/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/express-js-vs-nest-js/</loc>
+    <loc>http://localhost:1313/categories/javascript/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/general/</loc>
+    <loc>http://localhost:1313/categories/life/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/interview-question/</loc>
+    <loc>http://localhost:1313/authors/mk-kumawat/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/javascript/</loc>
+    <loc>http://localhost:1313/categories/node.js/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/life/</loc>
+    <loc>http://localhost:1313/temporal-dead-zone/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/authors/mk-kumawat/</loc>
+    <loc>http://localhost:1313/categories/web-development/</loc>
     <lastmod>2025-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/node.js/</loc>
-    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blogcube.site/temporal-dead-zone/</loc>
-    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blogcube.site/categories/web-development/</loc>
-    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blogcube.site/categories/generator/</loc>
+    <loc>http://localhost:1313/categories/generator/</loc>
     <lastmod>2023-12-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/interview/</loc>
+    <loc>http://localhost:1313/categories/interview/</loc>
     <lastmod>2023-12-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/js/</loc>
+    <loc>http://localhost:1313/categories/js/</loc>
     <lastmod>2023-12-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/generator-function/</loc>
+    <loc>http://localhost:1313/generator-function/</loc>
     <lastmod>2023-12-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/css-tips-and-tricks/</loc>
+    <loc>http://localhost:1313/css-tips-and-tricks/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/backend/</loc>
+    <loc>http://localhost:1313/categories/backend/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/css/</loc>
+    <loc>http://localhost:1313/categories/css/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/expressjs/</loc>
+    <loc>http://localhost:1313/categories/expressjs/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/authors/jane-doe/</loc>
+    <loc>http://localhost:1313/authors/jane-doe/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/authors/mk-dev/</loc>
+    <loc>http://localhost:1313/next-auth-with-iron-session/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/next-auth-with-iron-session/</loc>
+    <loc>http://localhost:1313/next-vs-express/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/next-vs-express/</loc>
+    <loc>http://localhost:1313/categories/nextjs/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/nextjs/</loc>
+    <loc>http://localhost:1313/categories/react/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/react/</loc>
+    <loc>http://localhost:1313/categories/style/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/style/</loc>
+    <loc>http://localhost:1313/categories/technology/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/technology/</loc>
+    <loc>http://localhost:1313/understanding-useeffect/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/understanding-useeffect/</loc>
+    <loc>http://localhost:1313/categories/ux-design/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/categories/ux-design/</loc>
+    <loc>http://localhost:1313/currying-function/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
   </url><url>
-    <loc>https://blogcube.site/currying-function/</loc>
+    <loc>http://localhost:1313/prototype-inheritence/</loc>
     <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
-    <loc>https://blogcube.site/prototype-inheritence/</loc>
-    <lastmod>2023-11-22T16:55:24+01:00</lastmod>
-  </url><url>
-    <loc>https://blogcube.site/first-hugo-project/</loc>
   </url>
 </urlset>

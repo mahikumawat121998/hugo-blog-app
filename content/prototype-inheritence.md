@@ -7,7 +7,8 @@ image = "https://miro.medium.com/v2/resize:fit:708/1*WSUwFb0-_86WrF4c4MDb-w.png"
 imageBig = "https://process.filestackapi.com/cache=expiry:max/resize=width:1050/4JH9hR06Q2Sm1Ftf7kfa"
 categories = ["javascript", "coding", "interview"]
 authors = ["MK Kumawat"]
-avatar = "/images/mk1.png"
+avatar = "/images/favicon1.png"
+
 +++
 
 > In JavaScript, Prototype Inheritance allows objects to inherit properties and methods from another object. Every JavaScript object has an internal property called [[Prototype]] that points to another object or null.

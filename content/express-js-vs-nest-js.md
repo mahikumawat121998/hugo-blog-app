@@ -5,10 +5,11 @@ categories = ["JavaScript", "Node.js", "Web Development", "general", "life", "co
 tags = ["expressjs", "nestjs", "backend", "nodejs", "javascript"]
 draft = false
 description = "A detailed comparison between Express.js and NestJS for building robust backend applications."
-image = "/images/5s.webp"
-imageBig = "/images/5b.webp"
+image = "/images/express-vs-nestjspictuer.png"
+imageBig = "/images/express-vs-nestjspictuer.png"
 authors = ["MK Kumawat"]
-avatar = "/images/avatar.webp"
+
+avatar = "/images/mk1.png"
 +++
 
 

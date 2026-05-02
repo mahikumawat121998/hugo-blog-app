@@ -7,7 +7,8 @@ image = "https://kinsta.com/wp-content/uploads/2023/05/react-useeffect.jpg"
 imageBig = "https://kinsta.com/wp-content/uploads/2023/05/react-useeffect.jpg"
 categories = ["general", "technology", "coding","react"]
 authors = ["MK Dev"]
-avatar = "/images/avatar.webp"
+avatar = "/images/mk1.png"
+
 +++
 
 The `useEffect` Hook is a fundamental aspect of React that allows developers to handle side effects in functional components. Introduced in React 16.8, it replaces the need for class-based lifecycle methods, enabling a more streamlined approach to managing side effects such as data fetching, subscriptions, or manually changing the DOM.

@@ -7,7 +7,8 @@ image = "https://blog.lama.dev/images/next-auth-iron-session-server-action.png"
 imageBig = "https://blog.lama.dev/images/next-auth-iron-session-server-action.png"
 categories = ["general", "css", "js"]
 authors = ["Jane Doe"]
-avatar = "/images/avatar.webp"
+avatar = "/images/favicon1.png"
+
 +++
 
 

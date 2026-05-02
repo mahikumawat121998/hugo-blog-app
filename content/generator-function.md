@@ -3,8 +3,8 @@ title = 'What is a Generator Function in JavaScript?'
 date = 2023-12-22T16:55:24+01:00
 draft = false
 description = "A generator function is a special kind of function that can be paused and resumed, allowing it to yield multiple values over time. Unlike regular functions that execute from start to finish, generator functions return an iterator object that can be used to manually control the function's execution."
-image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFcBzsdxeuZYv-UYo9D2i8lgE2Rr-26QS8aQ&s"
-imageBig = "https://media.licdn.com/dms/image/v2/D5612AQEizkAXYNBx1g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1720551898753?e=2147483647&v=beta&t=GmnEEBcW1SMV0Rils9vSgImwJ7T_5yyjXosjzIp7xew"
+image = "/images/js-generator-function.png"
+imageBig = "https://miro.medium.com/v2/resize:fit:786/format:webp/1*22kVFI2GGlETQGlhvReKYA.jpeg"
 categories = ["js", "generator", "interview"]
 authors = ["MK Kumawat"]
 avatar = "/images/mk1.png"
